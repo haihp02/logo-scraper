@@ -1,0 +1,1 @@
+scrapy crawl vectorstock_spider -a designer="iamguru" -a backward="False" -s FEED_URI=test_vectorstock_iamguru.jsonl

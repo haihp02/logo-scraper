@@ -1,0 +1,2543 @@
+2024-03-26 02:59:52 [scrapy.utils.log] INFO: Scrapy 2.11.1 started (bot: logo)
+2024-03-26 02:59:52 [scrapy.utils.log] INFO: Versions: lxml 5.1.0.0, libxml2 2.10.3, cssselect 1.2.0, parsel 1.9.0, w3lib 2.1.2, Twisted 24.3.0, Python 3.9.19 (main, Mar 21 2024, 17:21:27) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 24.1.0 (OpenSSL 3.2.1 30 Jan 2024), cryptography 42.0.5, Platform Windows-10-10.0.22631-SP0
+2024-03-26 02:59:52 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-03-26 02:59:52 [asyncio] DEBUG: Using selector: SelectSelector
+2024-03-26 02:59:52 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2024-03-26 02:59:52 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2024-03-26 02:59:52 [scrapy.extensions.telnet] INFO: Telnet Password: 89c0ab1fd1e1cc73
+2024-03-26 02:59:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2024-03-26 02:59:52 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'logo',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'logo.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['logo.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2024-03-26 02:59:53 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-03-26 02:59:53 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-03-26 02:59:53 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2024-03-26 02:59:53 [scrapy.core.engine] INFO: Spider opened
+2024-03-26 02:59:53 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-03-26 02:59:53 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2024-03-26 02:59:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/robots.txt> (referer: None)
+2024-03-26 02:59:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logos> (referer: None)
+2024-03-26 02:59:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/warner-bros-studios-0> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/ek-shirts> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/capital-edge-solution> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fundatia-corneliu-coposu> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/graysil-prints-0> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/abrasel-nacional> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/supermercados-breithaupt-2008> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/logo-unca-0> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/recruit> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/makedonski-gusarski-polk-1776> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/tez-yazdirma> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/jasma> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/nexarda> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/ine-4> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logos?page=1> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/warner-bros-studios-0?original=1> (referer: https://www.brandsoftheworld.com/logo/warner-bros-studios-0)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/rede-breithaupt-2008> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/grupo-breithaupt> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/ek-shirts?original=1> (referer: https://www.brandsoftheworld.com/logo/ek-shirts)
+2024-03-26 02:59:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/warner-bros-studios-0?original=1>
+{'contributor': 'svg',
+ 'description': ['This is the alternative logo of Warner Bros. Studios, with '
+                 'the sash/banner reading WARNER BROS. STUDIOS in Warner Bros. '
+                 'Sans Condensed BOld and and the wordmark written below the '
+                 "shield's logo in Warner Bros. Bold Condensed.",
+                 'Download the vector logo of the Warner Bros. Studios brand '
+                 'designed by Chermayeff & Geismar & Haviv in\n'
+                 '    Scalable Vector Graphics (SVG) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'unknown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/warner_bros._studios_2023_alt_wordmark.png?Cg3o0b2D0v84smKOG.ka4rNj04PkDqlS&itok=PoMa-Fu4'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/arts', 'Arts'),
+           ('/logos/countries/us', 'United States')],
+ 'title': 'Warner Bros. Studios',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Fri, 03/22/2024 - 19:56',
+ 'website': 'Chermayeff & Geismar & Haviv'}
+2024-03-26 02:59:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/ek-shirts?original=1>
+{'contributor': 'unknown',
+ 'description': ['Download the vector logo of the EK SHIRTS brand designed by  '
+                 'in\n'
+                 '    CorelDRAW® format. The current status of the logo is '
+                 'active, which means the logo is currently in use.'],
+ 'designer': 'unkown',
+ 'image_urls': ['https://www.brandsoftheworld.com/s3/files/styles/logo-original-577x577/s3/032024/ek_logo_png.png?itok=7_pnXVpm'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/manufacturing', 'Manufacturing'),
+           ('/logos/countries/in', 'India')],
+ 'title': 'EK SHIRTS',
+ 'updated_on': 'Mon, 03/25/2024 - 20:44',
+ 'vector_format': 'cdr',
+ 'vector_quality': '100% OK based on 1 rating '}
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/capital-edge-solution?original=1> (referer: https://www.brandsoftheworld.com/logo/capital-edge-solution)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/valdir-moveis> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fc-spartak-moscow-0> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/compaz-centro-comunitario-da-paz-0> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/compaz-centro-comunitario-da-paz> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/programa-nacional-de-concertacion-cultural> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/compaz-centro-comunitario-da-paz-1> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/compaz-centro-comunitario-da-paz-2> (referer: https://www.brandsoftheworld.com/logos)
+2024-03-26 02:59:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/capital-edge-solution?original=1>
+{'contributor': 'unknown',
+ 'description': ['Download the vector logo of the capital edge solution brand '
+                 'designed by  in\n'
+                 '    CorelDRAW® format. The current status of the logo is '
+                 'active, which means the logo is currently in use.'],
+ 'designer': 'unkown',
+ 'image_urls': ['https://www.brandsoftheworld.com/s3/files/styles/logo-original-577x577/s3/032024/capital_logo_vector_0.png?itok=CvQGHvOf'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/trade', 'Trade'),
+           ('/logos/countries/sg', 'Singapore')],
+ 'title': 'capital edge solution',
+ 'updated_on': 'Mon, 03/25/2024 - 20:44',
+ 'vector_format': 'cdr',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/tez-yazdirma?original=1> (referer: https://www.brandsoftheworld.com/logo/tez-yazdirma)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/makedonski-gusarski-polk-1776?original=1> (referer: https://www.brandsoftheworld.com/logo/makedonski-gusarski-polk-1776)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/recruit?original=1> (referer: https://www.brandsoftheworld.com/logo/recruit)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/logo-unca-0?original=1> (referer: https://www.brandsoftheworld.com/logo/logo-unca-0)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/abrasel-nacional?original=1> (referer: https://www.brandsoftheworld.com/logo/abrasel-nacional)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/supermercados-breithaupt-2008?original=1> (referer: https://www.brandsoftheworld.com/logo/supermercados-breithaupt-2008)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/graysil-prints-0?original=1> (referer: https://www.brandsoftheworld.com/logo/graysil-prints-0)
+2024-03-26 02:59:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fundatia-corneliu-coposu?original=1> (referer: https://www.brandsoftheworld.com/logo/fundatia-corneliu-coposu)
+2024-03-26 02:59:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/tez-yazdirma?original=1>
+{'contributor': 'svg',
+ 'description': ['Türkiye\'nin 1 numaralı <a href="',
+                 ' yazdırma</a> merkezi Tez Yazdır Akademik Danışmanlık, '
+                 'üniversite öğrencilerine tez sürecinde ücretli danışmanlık '
+                 'sağlamaktadır. <a href="',
+                 ' yazdırma ücretleri</a> için sayfayı ziyaret ederek '
+                 'öğrenebilirsiniz.',
+                 'Download the vector logo of the Tez Yazdırma brand designed '
+                 'by  in\n'
+                 '    Scalable Vector Graphics (SVG) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'unknown',
+ 'image_urls': ['https://www.brandsoftheworld.com/s3/files/styles/logo-original-577x577/s3/032024/tezyazdircom-logo.png?itok=A8KT6z5d'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/countries/tr', 'Turkey')],
+ 'title': 'Tez Yazdırma',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Mon, 03/25/2024 - 20:44',
+ 'website': 'unkown'}
+2024-03-26 02:59:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/recruit?original=1>
+{'contributor': 'eps',
+ 'description': ['Download the vector logo of the recruit brand designed by Le '
+                 'Gabriel Designs in\n'
+                 '    Encapsulated PostScript (EPS) format. The current status '
+                 'of the logo is active, which means the logo is currently in '
+                 'use.'],
+ 'designer': 'unknown',
+ 'image_urls': ['https://www.brandsoftheworld.com/s3/files/styles/logo-original-577x577/s3/032024/vinoly-logo.jpg?itok=KYeqPNgs'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/medical', 'Medical'),
+           ('/logos/countries/ie', 'Ireland')],
+ 'title': 'recruit',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Mon, 03/25/2024 - 20:44',
+ 'website': 'Le Gabriel Designs'}
+2024-03-26 02:59:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/makedonski-gusarski-polk-1776?original=1>
+{'contributor': 'unknown',
+ 'description': ['Download the vector logo of the Makedonski Gusarski Polk '
+                 '1776 brand designed by B.N in\n'
+                 '    Encapsulated PostScript (EPS) format. The current status '
+                 'of the logo is active, which means the logo is currently in '
+                 'use.'],
+ 'designer': 'B.N',
+ 'image_urls': ['https://www.brandsoftheworld.com/s3/files/styles/logo-original-577x577/s3/032024/makedonski_polk_1776.jpg?itok=T0ncIvqH'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/heraldry', 'Heraldry'),
+           ('/logos/countries/mk', 'Macedonia')],
+ 'title': 'Makedonski Gusarski Polk 1776',
+ 'updated_on': 'Mon, 03/25/2024 - 20:44',
+ 'vector_format': 'eps',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/logo-unca-0?original=1>
+{'contributor': 'Elgugy Diseñoz',
+ 'description': ['Download the vector logo of the Logo UNCa brand designed by '
+                 'Guju Microapps in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Guju Microapps',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/logotipo_unca_1.png?vr203EPmVv6cZZeEBLXCbvfNru.8Ygdc&itok=XdeEtrMA'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/education', 'Education'),
+           ('/logos/countries/ar', 'Argentina')],
+ 'title': 'Logo UNCa',
+ 'updated_on': 'Fri, 03/22/2024 - 19:56',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/abrasel-nacional?original=1>
+{'contributor': 'ai',
+ 'description': ['Download the vector logo of the Abrasel Nacional brand '
+                 'designed by LFi Propaganda in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'unknown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/abrasel_logo.png?7rVFRbaM6fFmtf9Rm1GR2uveNMwN8689&itok=lVqrVEvA'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/food-drinks', 'Food, Drinks'),
+           ('/logos/countries/br', 'Brazil')],
+ 'title': 'Abrasel Nacional',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Fri, 03/22/2024 - 19:56',
+ 'website': 'LFi Propaganda'}
+2024-03-26 02:59:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/graysil-prints-0?original=1>
+{'contributor': 'unknown',
+ 'description': ['PRINTING LOGO',
+                 'Download the vector logo of the GRAYSIL PRINTS brand '
+                 'designed by  in\n'
+                 '    Scalable Vector Graphics (SVG) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'unkown',
+ 'image_urls': ['https://www.brandsoftheworld.com/s3/files/styles/logo-original-577x577/s3/032024/gr.jpg?itok=2q8Gv1yb'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/business', 'Business'),
+           ('/logos/countries/in', 'India')],
+ 'title': 'GRAYSIL PRINTS',
+ 'updated_on': 'Mon, 03/25/2024 - 20:44',
+ 'vector_format': 'svg',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/supermercados-breithaupt-2008?original=1>
+{'contributor': 'unknown',
+ 'description': ['Download the vector logo of the Supermercados Breithaupt '
+                 '2008 brand designed by  in\n'
+                 '    Encapsulated PostScript (EPS) format. The current status '
+                 'of the logo is active, which means the logo is currently in '
+                 'use.'],
+ 'designer': 'unkown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/assinatura_supermercados_brt.png?Lh0ELFZUMjWwd3k6N.uhPgZL8S6ywSvB&itok=pfkwnFBm'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/retail', 'Retail'),
+           ('/logos/countries/br', 'Brazil')],
+ 'title': 'Supermercados Breithaupt 2008',
+ 'updated_on': 'Fri, 03/22/2024 - 19:56',
+ 'vector_format': 'eps',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/fundatia-corneliu-coposu?original=1>
+{'contributor': 'cdr',
+ 'description': ['Download the vector logo of the Fundatia Corneliu Coposu '
+                 'brand designed by Fundatia Corneliu Coposu in\n'
+                 '    CorelDRAW® format. The current status of the logo is '
+                 'active, which means the logo is currently in use.'],
+ 'designer': 'Fundatia Corneliu Coposu',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/logo_fundatia_corneliu_coposu.jpg?kx3rUGMl.riirHhwJ38q31iu0oBUtTmR&itok=IJ9zIFM1'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/education', 'Education'),
+           ('/logos/countries/ro', 'Romania')],
+ 'title': 'Fundatia Corneliu Coposu',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Fri, 03/22/2024 - 19:56',
+ 'website': 'Fundatia Corneliu Coposu'}
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-kuban-krasnodar-early-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=1)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logos?page=2> (referer: https://www.brandsoftheworld.com/logos?page=1)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/grupo-breithaupt?original=1> (referer: https://www.brandsoftheworld.com/logo/grupo-breithaupt)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/lfa-caliente-2024> (referer: https://www.brandsoftheworld.com/logos?page=1)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-rostselmash-rostov-na-donu-early-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=1)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/rede-breithaupt-2008?original=1> (referer: https://www.brandsoftheworld.com/logo/rede-breithaupt-2008)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-fakel-voronezh-early-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=1)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-energiya-tekstilshchik-kamyshin-mid-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=1)
+2024-03-26 02:59:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/grupo-breithaupt?original=1>
+{'contributor': 'Bruno Breithaupt Filho',
+ 'description': ['Download the vector logo of the Grupo Breithaupt brand '
+                 'designed by  in\n'
+                 '    Encapsulated PostScript (EPS) format. The current status '
+                 'of the logo is active, which means the logo is currently in '
+                 'use.'],
+ 'designer': 'unkown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/grupo-brt-horizontal_color.png?FdSZ8qPpftST7bZSy00dIgHm.hqI9uh6&itok=g4yisK5F'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/business', 'Business'),
+           ('/logos/countries/br', 'Brazil')],
+ 'title': 'Grupo Breithaupt',
+ 'updated_on': 'Thu, 03/21/2024 - 17:25',
+ 'vector_format': 'eps',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/rede-breithaupt-2008?original=1>
+{'contributor': 'unknown',
+ 'description': ['Download the vector logo of the Rede Breithaupt 2008 brand '
+                 'designed by  in\n'
+                 '    Encapsulated PostScript (EPS) format. The current status '
+                 'of the logo is active, which means the logo is currently in '
+                 'use.'],
+ 'designer': 'unkown',
+ 'image_urls': ['https://www.brandsoftheworld.com/s3/files/styles/logo-original-577x577/s3/032024/breithaupt_assinatura_1926.png?itok=AVcrBpcq'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/retail', 'Retail'),
+           ('/logos/countries/br', 'Brazil')],
+ 'title': 'Rede Breithaupt 2008',
+ 'updated_on': 'Mon, 03/25/2024 - 20:44',
+ 'vector_format': 'eps',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/compaz-centro-comunitario-da-paz-1?original=1> (referer: https://www.brandsoftheworld.com/logo/compaz-centro-comunitario-da-paz-1)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/programa-nacional-de-concertacion-cultural?original=1> (referer: https://www.brandsoftheworld.com/logo/programa-nacional-de-concertacion-cultural)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/compaz-centro-comunitario-da-paz-0?original=1> (referer: https://www.brandsoftheworld.com/logo/compaz-centro-comunitario-da-paz-0)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/valdir-moveis?original=1> (referer: https://www.brandsoftheworld.com/logo/valdir-moveis)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/compaz-centro-comunitario-da-paz-2?original=1> (referer: https://www.brandsoftheworld.com/logo/compaz-centro-comunitario-da-paz-2)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fc-spartak-moscow-0?original=1> (referer: https://www.brandsoftheworld.com/logo/fc-spartak-moscow-0)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/deeply> (referer: https://www.brandsoftheworld.com/logos?page=1)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/compaz-centro-comunitario-da-paz?original=1> (referer: https://www.brandsoftheworld.com/logo/compaz-centro-comunitario-da-paz)
+2024-03-26 02:59:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/compaz-centro-comunitario-da-paz-1?original=1>
+{'contributor': 'eps',
+ 'description': ['Download the vector logo of the Compaz - Centro Comunitário '
+                 'da Paz brand designed by  in\n'
+                 '    Encapsulated PostScript (EPS) format. The current status '
+                 'of the logo is active, which means the logo is currently in '
+                 'use.'],
+ 'designer': 'unknown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/marca_compaz_institucional-02.jpg?0M993M9m7UVmQ7y3xlR_ixSBSCZVEWyS&itok=Z6f61mki'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/government', 'Government'),
+           ('/logos/countries/br', 'Brazil')],
+ 'title': 'Compaz - Centro Comunitário da Paz',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Fri, 03/22/2024 - 20:00',
+ 'website': 'unkown'}
+2024-03-26 02:59:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/programa-nacional-de-concertacion-cultural?original=1>
+{'contributor': 'Camilo Calvache Vargas',
+ 'description': ['El Programa Nacional de Concertación Cultural, a través de '
+                 'los fondos concursables, busca acercarse a la diversidad de '
+                 'nuestras realidades rurales y urbanas: salas independientes, '
+                 'espacios no convencionales, museos, casas de la cultura, '
+                 'bibliotecas públicas, bibliotecas rurales, centros '
+                 'comunitarios, centros de memoria, entre otros. Buscamos '
+                 'fortalecer los mecanismos de encuentro, de visibilidad y de '
+                 'circulación y acceso ciudadano a la creación artística, a '
+                 'los bienes espirituales y a los saberes de la tradición y de '
+                 'las culturas, de manera que sus expresiones tengan un lugar '
+                 'protagónico y de reconocimiento común en nuestros '
+                 'territorios, en la región y en el mundo. Dándole un mayor '
+                 'alcance a estos principios, la convocatoria del Programa '
+                 'Nacional de Concertación Cultural se acoge a la propuesta '
+                 'colectiva de hacer de las artes, las culturas y los saberes '
+                 'y patrimonios un fundamento y un medio para tejer '
+                 'colectivamente la paz. Esta convocatoria busca también que '
+                 'tanto las organizaciones emergentes como las que tienen una '
+                 'trayectoria reconocida, puedan acceder a los recursos del '
+                 'Estado para desarrollar sus proyectos y procesos de creación '
+                 'artística; realizar festivales, encuentros y eventos '
+                 'artísticos y culturales; fortalecer las manifestaciones del '
+                 'patrimonio vivo; dar continuidad a sus procesos formativos; '
+                 'desarrollar estrategias de apropiación social, fomento, '
+                 'promoción, circulación de las artes, las culturas y los '
+                 'patrimonios; poner en marcha estrategias creativas '
+                 'productivas que contribuyan a mejorar las condiciones de '
+                 'vida de los y las artistas y promotores culturales, y a la '
+                 'sostenibilidad de las manifestaciones de las artes, los '
+                 'oficios y los patrimonios y su relación con el país y el '
+                 'momento histórico del cambio.',
+                 'Download the vector logo of the Programa Nacional de '
+                 'Concertación Cultural brand designed by Camilo Calvache '
+                 'Vargas in\n'
+                 '    Scalable Vector Graphics (SVG) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'Camilo Calvache Vargas',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/sala.png?1EOlwxDlNce1pyyqeEOMR3qUdLiZpZbq&itok=qDGQFLpH'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/government', 'Government'),
+           ('/logos/countries/co', 'Colombia')],
+ 'title': 'Programa Nacional de Concertación Cultural',
+ 'updated_on': 'Fri, 03/22/2024 - 19:56',
+ 'vector_format': 'svg',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/compaz-centro-comunitario-da-paz-0?original=1>
+{'contributor': 'eps',
+ 'description': ['Download the vector logo of the Compaz - Centro Comunitário '
+                 'da Paz brand designed by  in\n'
+                 '    Encapsulated PostScript (EPS) format. The current status '
+                 'of the logo is active, which means the logo is currently in '
+                 'use.'],
+ 'designer': 'unknown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/marca_compaz_institucional-05.png?sEj8xx1gChPA1mgppAyt7e01kjBY6Jp2&itok=ecsd4naw'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/government', 'Government'),
+           ('/logos/countries/br', 'Brazil')],
+ 'title': 'Compaz - Centro Comunitário da Paz',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Fri, 03/22/2024 - 20:00',
+ 'website': 'unkown'}
+2024-03-26 02:59:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/valdir-moveis?original=1>
+{'contributor': 'unknown',
+ 'description': ['Download the vector logo of the Valdir Móveis brand designed '
+                 'by Rodrigo Augusto Zerbien in\n'
+                 '    Encapsulated PostScript (EPS) format. The current status '
+                 'of the logo is active, which means the logo is currently in '
+                 'use.'],
+ 'designer': 'Rodrigo Augusto Zerbien',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/logo_valdir.png?OhpWwARf_2glTEmJM1DxgCAEA926QRf.&itok=wieR0u6o'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/br', 'Brazil')],
+ 'title': 'Valdir Móveis',
+ 'updated_on': 'Thu, 03/21/2024 - 17:25',
+ 'vector_format': 'eps',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/compaz-centro-comunitario-da-paz-2?original=1>
+{'contributor': 'eps',
+ 'description': ['Download the vector logo of the Compaz - Centro Comunitário '
+                 'da Paz brand designed by  in\n'
+                 '    Encapsulated PostScript (EPS) format. The current status '
+                 'of the logo is active, which means the logo is currently in '
+                 'use.'],
+ 'designer': 'unknown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/marca_compaz_institucional-06.jpg?0y9LMbc4nqk9rcT.h.AN1jjPIVAxDisB&itok=dKRjS1tU'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/government', 'Government'),
+           ('/logos/countries/br', 'Brazil')],
+ 'title': 'Compaz - Centro Comunitário da Paz',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Fri, 03/22/2024 - 20:00',
+ 'website': 'unkown'}
+2024-03-26 02:59:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/fc-spartak-moscow-0?original=1>
+{'contributor': 'eps',
+ 'description': ['Actual logo on 2024',
+                 'Download the vector logo of the FC Spartak Moscow brand '
+                 'designed by unknown in\n'
+                 '    Encapsulated PostScript (EPS) format. The current status '
+                 'of the logo is active, which means the logo is currently in '
+                 'use.'],
+ 'designer': 'unknown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/preview.jpg?R2JvmGAyytjSEw1BqiU6QavI9KqmeFbq&itok=Cnhc4xP3'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/sports', 'Sports'),
+           ('/logos/countries/ru', 'Russia')],
+ 'title': 'FC Spartak Moscow',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Thu, 03/21/2024 - 17:25',
+ 'website': 'unknown'}
+2024-03-26 02:59:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/compaz-centro-comunitario-da-paz?original=1>
+{'contributor': 'eps',
+ 'description': ['Download the vector logo of the Compaz - Centro Comunitário '
+                 'da Paz brand designed by  in\n'
+                 '    Encapsulated PostScript (EPS) format. The current status '
+                 'of the logo is active, which means the logo is currently in '
+                 'use.'],
+ 'designer': 'unknown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/marca_compaz_institucional-01.png?cuAXU1zp264X4hh0AvNuzN5o0dPAV6pm&itok=7B3lpAPB'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/government', 'Government'),
+           ('/logos/countries/br', 'Brazil')],
+ 'title': 'Compaz - Centro Comunitário da Paz',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Fri, 03/22/2024 - 20:00',
+ 'website': 'unkown'}
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/avidclan-technologies> (referer: https://www.brandsoftheworld.com/logos?page=1)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/cymune-0> (referer: https://www.brandsoftheworld.com/logos?page=1)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/vereador-batista-goiabeira> (referer: https://www.brandsoftheworld.com/logos?page=1)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/redbang> (referer: https://www.brandsoftheworld.com/logos?page=1)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-metalurg-zaporozhye-early-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=1)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/hipaa-digital-llc> (referer: https://www.brandsoftheworld.com/logos?page=1)
+2024-03-26 02:59:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-energiya-tekstilshchik-kamyshin-mid-1990s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/fk-energiya-tekstilshchik-kamyshin-mid-1990s-logo)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-fakel-voronezh-early-1990s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/fk-fakel-voronezh-early-1990s-logo)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/lfa-caliente-2024?original=1> (referer: https://www.brandsoftheworld.com/logo/lfa-caliente-2024)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fc-bohemians-praha-mid-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=2)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-rostselmash-rostov-na-donu-early-1990s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/fk-rostselmash-rostov-na-donu-early-1990s-logo)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logos?page=3> (referer: https://www.brandsoftheworld.com/logos?page=2)
+2024-03-26 02:59:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/fk-energiya-tekstilshchik-kamyshin-mid-1990s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Russia',
+                 'Download the vector logo of the FK Energiya-Tekstilshchik '
+                 "Kamyshin (mid 1990's logo) brand designed by Dmitry "
+                 'Lukyanchuk (https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/energiya-tekstilshchik_kamyshin_rossiya_old_logo3.jpg?Y1S2Xk9UXApCDN7hV9IKeJus596HA_fz&itok=YeW-KqHD'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/ru', 'Russia')],
+ 'title': "FK Energiya-Tekstilshchik Kamyshin (mid 1990's logo)",
+ 'updated_on': 'Tue, 03/19/2024 - 16:09',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/fk-fakel-voronezh-early-1990s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Russia',
+                 'Download the vector logo of the FK Fakel Voronezh (early '
+                 "1990's logo) brand designed by Dmitry Lukyanchuk "
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/fakel_voronezh_rossiya_old_logo3.jpg?S1TuJFF7A0rn2x9tvIukNct8HUPhxblk&itok=bgUYhf29'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/ru', 'Russia')],
+ 'title': "FK Fakel Voronezh (early 1990's logo)",
+ 'updated_on': 'Tue, 03/19/2024 - 16:09',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/lfa-caliente-2024?original=1>
+{'contributor': 'Jakovo M2',
+ 'description': ['Download the vector logo of the LFA Caliente 2024 brand '
+                 'designed by LFA  in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'LFA ',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/lfa_caliente.jpg?2C2UPHofKs3V.rASDAjnwiPAyM3KzLpm&itok=fowNdc64'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/sports', 'Sports'),
+           ('/logos/countries/mx', 'Mexico')],
+ 'title': 'LFA Caliente 2024',
+ 'updated_on': 'Tue, 03/19/2024 - 16:09',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/fk-rostselmash-rostov-na-donu-early-1990s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Russia',
+                 'Download the vector logo of the FK Rostselmash '
+                 "Rostov-na-Donu (early 1990's logo) brand designed by Dmitry "
+                 'Lukyanchuk (https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/rostselmash_rostov-na-donu_rossiya_old_logo.jpg?OcU7a18s.hVPhtsnhFE60M9ULr6WPyEk&itok=QgpnjVHa'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/ru', 'Russia')],
+ 'title': "FK Rostselmash Rostov-na-Donu (early 1990's logo)",
+ 'updated_on': 'Tue, 03/19/2024 - 16:09',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/warner-bros-studios> (referer: https://www.brandsoftheworld.com/logos?page=1)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/rts-widzew-lodz-mid-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=2)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/mks-zaglebie-lubin-late-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=2)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/tous-0> (referer: https://www.brandsoftheworld.com/logos?page=1)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/deeply?original=1> (referer: https://www.brandsoftheworld.com/logo/deeply)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/lks-lodz-late-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=2)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/lks-igloopol-debica-mid-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=2)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/ssa-petro-plock-late-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=2)
+2024-03-26 02:59:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/deeply?original=1>
+{'contributor': 'La Marca Blanca',
+ 'description': ['Download the vector logo of the Deeply brand designed by  '
+                 'in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'unkown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/captura_de_pantalla_2024-03-19_a_les_14.19.17.png?tyEyVoSrujKjKD9vtUKuw9jvCO2Ne09q&itok=aTCsLfmK'],
+ 'status': 'Active ',
+ 'terms': [],
+ 'title': 'Deeply',
+ 'updated_on': 'Wed, 03/20/2024 - 21:34',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/ts-sokol-pniewy-mid-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=2)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/hipaa-digital-llc?original=1> (referer: https://www.brandsoftheworld.com/logo/hipaa-digital-llc)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/mkp-stal-mielec-mid-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=2)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/avidclan-technologies?original=1> (referer: https://www.brandsoftheworld.com/logo/avidclan-technologies)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-metalurg-zaporozhye-early-1990s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/fk-metalurg-zaporozhye-early-1990s-logo)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/vereador-batista-goiabeira?original=1> (referer: https://www.brandsoftheworld.com/logo/vereador-batista-goiabeira)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/redbang?original=1> (referer: https://www.brandsoftheworld.com/logo/redbang)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/cymune-0?original=1> (referer: https://www.brandsoftheworld.com/logo/cymune-0)
+2024-03-26 02:59:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/hipaa-digital-llc?original=1>
+{'contributor': 'svg',
+ 'description': [' Based in the United States, HIPAA Digital delivers a Fully '
+                 'Managed ePHI Compliance Solution for Websites, Hosting, '
+                 'Business Email, Marketing & SEO.',
+                 'Download the vector logo of the HIPAA Digital LLC brand '
+                 'designed by HIPAA Digital LLC in\n'
+                 '    Scalable Vector Graphics (SVG) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'unknown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/hippa_compliant_web_hosting_marketing_and_searchg_engine_optimization.png?h7H3qH66fE.HMnALxuMl1wX2YG8dYmLd&itok=5B7-OZGg'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/consulting', 'Consulting'),
+           ('/logos/countries/us', 'United States')],
+ 'title': 'HIPAA Digital LLC',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Wed, 03/20/2024 - 21:34',
+ 'website': 'HIPAA Digital LLC'}
+2024-03-26 02:59:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/avidclan-technologies?original=1>
+{'contributor': 'svg',
+ 'description': ['Welcome to Avidclan Technologies, where innovation meets '
+                 'excellence in the world of technology. With a team of '
+                 'dedicated professionals, we offer a comprehensive range of '
+                 'services including Software, Web and Mobile App Development, '
+                 'UX/UI Design, Digital Marketing, QA, and IoT. Do you need a '
+                 "tech upgrade, we're your wizards to build your digital "
+                 "dream? Enterprises or just startups, we've got your back. "
+                 'Join hands with us to embark on a journey of innovation and '
+                 'success.',
+                 'Download the vector logo of the Avidclan Technologies brand '
+                 'designed by Avidclan in\n'
+                 '    Scalable Vector Graphics (SVG) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'Avidclan',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/avidclan_logo_design.jpg?OPmZRrXeRCMM0v24FmdnoUy8FagAHfBY&itok=ed9074hm'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/technology', 'Technology'),
+           ('/logos/countries/in', 'India')],
+ 'title': 'Avidclan Technologies',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Wed, 03/20/2024 - 21:34',
+ 'website': 'Avidclan'}
+2024-03-26 02:59:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/fk-metalurg-zaporozhye-early-1990s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Ukraine',
+                 'Download the vector logo of the FK Metalurg Zaporozhye '
+                 "(early 1990's logo) brand designed by Dmitry Lukyanchuk "
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/metallurg_zaporozhe_ukraina_old_logo2.jpg?MfmCSsoDFPRDw5mIsMJZvDfdq0_7K3gM&itok=4-BOvrmV'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/ua', 'Ukraine')],
+ 'title': "FK Metalurg Zaporozhye (early 1990's logo)",
+ 'updated_on': 'Wed, 03/20/2024 - 21:34',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/vereador-batista-goiabeira?original=1>
+{'contributor': 'Vereador Batista Goiabeira',
+ 'description': ['Vereador Batista Goiabeira',
+                 'Download the vector logo of the Vereador Batista Goiabeira '
+                 'brand designed by Vereador Batista Goiabeira in\n'
+                 '    Portable Document Format (PDF) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'Vereador Batista Goiabeira',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/batista_goiabeira.png?0QiQF0ErSfXq4C8uF698kxoaLXhu9Nfg&itok=D6l0myRY'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/government', 'Government'),
+           ('/logos/countries/br', 'Brazil')],
+ 'title': 'Vereador Batista Goiabeira',
+ 'updated_on': 'Wed, 03/20/2024 - 21:34',
+ 'vector_format': 'pdf',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/redbang?original=1>
+{'contributor': 'eps',
+ 'description': ['Download the vector logo of the redBANG brand designed by '
+                 'Rurik Nystrom & Jannice Aadde in\n'
+                 '    Encapsulated PostScript (EPS) format. The current status '
+                 'of the logo is active, which means the logo is currently in '
+                 'use.'],
+ 'designer': 'Rurik Nystrom',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/redbang_international_logos_sq_space_blue_2017_01_13_0.png?0RjdDCEaJKv9oBBuKnk0QTaloJDpRKgC&itok=g4Wku3rP'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/design', 'Design'),
+           ('/logos/countries/cn', 'China')],
+ 'title': 'redBANG',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Wed, 03/20/2024 - 21:35',
+ 'website': 'Rurik Nystrom & Jannice Aadde'}
+2024-03-26 02:59:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/cymune-0?original=1>
+{'contributor': 'svg',
+ 'description': ['At Cymune; we enable our clients to implement proactive and '
+                 'measurable security programs that are far more effective at '
+                 'minimizing current and future cyber risks. Our tools, '
+                 'processes and people are among the best in the industry with '
+                 'a collective knowledge of having handled several million '
+                 'incidents, thereby saving millions of dollars in insider '
+                 'threats, in protecting business reputation, in automating '
+                 'security Incident Response using Artificial Intelligence to '
+                 'make businesses mature in dealing with everyday threats.',
+                 'Download the vector logo of the Cymune brand designed by  '
+                 'in\n'
+                 '    Scalable Vector Graphics (SVG) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'unknown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/cymune-logo1_0.png?8K1VLyKYbU5wfCzTGCn8ra656RJ.W6m1&itok=tRIeJ6sO'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/business', 'Business'),
+           ('/logos/countries/id', 'Indonesia')],
+ 'title': 'Cymune',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Wed, 03/20/2024 - 21:34',
+ 'website': 'unkown'}
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/not-blowing-smoke-limited> (referer: https://www.brandsoftheworld.com/logos?page=3)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/sultanes-femenil-2024> (referer: https://www.brandsoftheworld.com/logos?page=3)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/sultanes-femenil-2024-0> (referer: https://www.brandsoftheworld.com/logos?page=3)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logos?page=4> (referer: https://www.brandsoftheworld.com/logos?page=3)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/charros-de-jalisco-softbol-2024> (referer: https://www.brandsoftheworld.com/logos?page=3)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/proter-power-tool-logo> (referer: https://www.brandsoftheworld.com/logos?page=3)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/wapda-logo-faisalabad-pakistan> (referer: https://www.brandsoftheworld.com/logos?page=3)
+2024-03-26 02:59:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/cengiz-inler> (referer: https://www.brandsoftheworld.com/logos?page=3)
+2024-03-26 02:59:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/ssa-petro-plock-late-1990s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/ssa-petro-plock-late-1990s-logo)
+2024-03-26 02:59:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/lks-igloopol-debica-mid-1990s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/lks-igloopol-debica-mid-1990s-logo)
+2024-03-26 02:59:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/lks-lodz-late-1990s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/lks-lodz-late-1990s-logo)
+2024-03-26 02:59:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fc-chelsea-london-late-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=3)
+2024-03-26 02:59:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/rts-widzew-lodz-mid-1990s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/rts-widzew-lodz-mid-1990s-logo)
+2024-03-26 02:59:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/mks-zaglebie-lubin-late-1990s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/mks-zaglebie-lubin-late-1990s-logo)
+2024-03-26 02:59:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/ssa-petro-plock-late-1990s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Poland',
+                 "Download the vector logo of the SSA Petro Plock (late 1990's "
+                 'logo) brand designed by Dmitry Lukyanchuk '
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/petro_plock_polsha_old_logo2.jpg?B9OhnGqiHPJ3P6pGt.HJjvdyG3stdPp5&itok=5NdR8DwD'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/pl', 'Poland')],
+ 'title': "SSA Petro Plock (late 1990's logo)",
+ 'updated_on': 'Tue, 03/19/2024 - 16:09',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/lks-igloopol-debica-mid-1990s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Poland',
+                 'Download the vector logo of the LKS-Igloopol Debica (mid '
+                 "1990's logo) brand designed by Dmitry Lukyanchuk "
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/lks-igloopol_dembica_polsha_old_logo2.jpg?7J.y19P8HgxxfguXxZmJpYWhuCugM8D1&itok=d_OxIxF_'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/pl', 'Poland')],
+ 'title': "LKS-Igloopol Debica (mid 1990's logo)",
+ 'updated_on': 'Tue, 03/19/2024 - 16:09',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/lks-lodz-late-1990s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Poland',
+                 "Download the vector logo of the LKS Lodz (late 1990's logo) "
+                 'brand designed by Dmitry Lukyanchuk '
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/lks_lodz_polsha_old_logo6.jpg?t4ElHCqZiAYihtKd5q20nqS1qKcIjy1l&itok=BcjA7zNF'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/pl', 'Poland')],
+ 'title': "LKS Lodz (late 1990's logo)",
+ 'updated_on': 'Tue, 03/19/2024 - 16:09',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/rts-widzew-lodz-mid-1990s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Poland',
+                 "Download the vector logo of the RTS Widzew Lodz (mid 1990's "
+                 'logo) brand designed by Dmitry Lukyanchuk '
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/vidzev_lodz_polsha_old_logo4.jpg?_YKkTk62.5BPbcU4rG9U5Ei_GpcsJCT0&itok=S4MZQ2kG'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/pl', 'Poland')],
+ 'title': "RTS Widzew Lodz (mid 1990's logo)",
+ 'updated_on': 'Tue, 03/19/2024 - 16:09',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/mks-zaglebie-lubin-late-1990s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Poland',
+                 'Download the vector logo of the MKS Zaglebie Lubin (late '
+                 "1990's logo) brand designed by Dmitry Lukyanchuk "
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/zaglembe_lyubin_polsha_old_logo3.jpg?w1PNmlvLWOhOeuvMgMY9w6fc5U6QHxou&itok=vvbP2-T0'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/pl', 'Poland')],
+ 'title': "MKS Zaglebie Lubin (late 1990's logo)",
+ 'updated_on': 'Tue, 03/19/2024 - 16:09',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/mkp-stal-mielec-mid-1990s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/mkp-stal-mielec-mid-1990s-logo)
+2024-03-26 02:59:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/rayo-vallecano-madrid-late-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=3)
+2024-03-26 02:59:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/ts-sokol-pniewy-mid-1990s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/ts-sokol-pniewy-mid-1990s-logo)
+2024-03-26 02:59:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/tous-0?original=1> (referer: https://www.brandsoftheworld.com/logo/tous-0)
+2024-03-26 02:59:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/valerenga-if-oslo-mid-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=3)
+2024-03-26 02:59:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/mkp-stal-mielec-mid-1990s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Poland',
+                 "Download the vector logo of the MKP Stal Mielec (mid 1990's "
+                 'logo) brand designed by Dmitry Lukyanchuk '
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/stal_melec_polsha_old_logo4.jpg?tLjMRh_4THHN5yKmEOxnrR4xQh1sf7Bt&itok=CrDgWzqH'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/pl', 'Poland')],
+ 'title': "MKP Stal Mielec (mid 1990's logo)",
+ 'updated_on': 'Tue, 03/19/2024 - 16:09',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/ts-sokol-pniewy-mid-1990s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Poland',
+                 "Download the vector logo of the TS Sokol Pniewy (mid 1990's "
+                 'logo) brand designed by Dmitry Lukyanchuk '
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/sokul_pnevy_polsha_old_logo3.jpg?y3KB0dW7md.1ZyXbn0sLl1IPC.K5Cnit&itok=P2rn6wWK'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/pl', 'Poland')],
+ 'title': "TS Sokol Pniewy (mid 1990's logo)",
+ 'updated_on': 'Tue, 03/19/2024 - 16:09',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/tous-0?original=1>
+{'contributor': 'unknown',
+ 'description': ['Download the vector logo of the TOUS brand designed by  in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'unkown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/tous_new_obszar_roboczy_1_0.jpg?xceXkPWdYvZMOSu6a8Ic0edn31kGdBQT&itok=aYEoZSFg'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/fashion', 'Fashion'),
+           ('/logos/countries/de', 'Germany')],
+ 'title': 'TOUS',
+ 'updated_on': 'Wed, 03/20/2024 - 21:34',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/cengiz-inler?original=1> (referer: https://www.brandsoftheworld.com/logo/cengiz-inler)
+2024-03-26 02:59:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/wapda-logo-faisalabad-pakistan?original=1> (referer: https://www.brandsoftheworld.com/logo/wapda-logo-faisalabad-pakistan)
+2024-03-26 02:59:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/proter-power-tool-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/proter-power-tool-logo)
+2024-03-26 02:59:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/warner-bros-studios?original=1> (referer: https://www.brandsoftheworld.com/logo/warner-bros-studios)
+2024-03-26 02:59:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/cengiz-inler?original=1>
+{'contributor': 'pdf',
+ 'description': ['Download the vector logo of the Cengiz İnler brand designed '
+                 'by  in\n'
+                 '    Portable Document Format (PDF) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'unknown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/cengiz-inler.jpg?Yg9erIPpUM4CifC72UBzCvAYh5_GhSzP&itok=hYwIAzyK'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/design', 'Design'),
+           ('/logos/countries/tr', 'Turkey')],
+ 'title': 'Cengiz İnler',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Mon, 03/18/2024 - 20:06',
+ 'website': 'unkown'}
+2024-03-26 02:59:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/wapda-logo-faisalabad-pakistan?original=1>
+{'contributor': 'Adeel',
+ 'description': ['Corel Draw Cdr File 11',
+                 'Download the vector logo of the Wapda Logo Faisalabad '
+                 'Pakistan brand designed by Faizrasool in\n'
+                 '    CorelDRAW® format. The current status of the logo is '
+                 'active, which means the logo is currently in use.'],
+ 'designer': 'Faizrasool',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/fesco_wapda_faisalabad_logo.jpg?vQ_4Mnp.U6nWU_q15jcF.gu6Dv_VkRfu&itok=7s777eQp'],
+ 'status': 'Active ',
+ 'terms': [],
+ 'title': 'Wapda Logo Faisalabad Pakistan',
+ 'updated_on': 'Mon, 03/18/2024 - 20:06',
+ 'vector_format': 'cdr',
+ 'vector_quality': 'No ratings '}
+2024-03-26 02:59:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/proter-power-tool-logo?original=1>
+{'contributor': 'pdf',
+ 'description': ['Elektrikli el aletleri sektöründe faaliyet gösteren '
+                 'firmamız, kalitesi ve güveni ile dünya piyasalarında kendini '
+                 'ispatlamış markalı ürünlerin iç piyasaya dağıtımını '
+                 'sağlamaktaydı. Zaman içerisinde firma kurucularının 30 '
+                 'yıllık tecrübe ve bilgi birikimlerini bir noktada kullanmak '
+                 'ihtiyacı doğmuş ve bu noktadan hareketle 2000 senesinde '
+                 'PROTER projesi ortaya çıkmıştır.',
+                 'Bu proje üzerinde gerekli altyapı ve fizibilite '
+                 'araştırmaları başlamış ve piyasanın ihtiyacı olan uygun '
+                 'fiyata kaliteli ürün prensibiyle PROTER markalı ürünlerin '
+                 'ithalatına başlanmıştır.',
+                 'İçinde bulunduğumuz süreçte PROTER, güçlü pazarlama ağı ile, '
+                 "Türkiye\\'nin hemen hemen bütün illerindeki sektörün önde "
+                 'gelen firmalarına satış elemanlarıyla periyodik seyahatler '
+                 'düzenleyerek, ürünlerinin tanıtım ve dağıtımını '
+                 'sağlamaktadır.',
+                 'Satış sonrası hizmetlere de önem veren firmamız Türkiye '
+                 'genelindeki servis ağıyla PROTER kullanıcılarına hizmet '
+                 'vermektedir.',
+                 '(Kilitleyip koymuşlar logo da bir boka benzese :D)',
+                 'Download the vector logo of the Proter power tool logo brand '
+                 'designed by Ahmet ÖZTÜRK Waryanli in\n'
+                 '    Portable Document Format (PDF) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'waryanli',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/proter_logo.png?wGcDPCiaznvUi72H0Jo_lwzBGCumUrqs&itok=CtR-SMZk'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/business', 'Business'),
+           ('/logos/countries/tr', 'Turkey')],
+ 'title': 'Proter power tool logo',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Mon, 03/18/2024 - 20:06',
+ 'website': 'Ahmet ÖZTÜRK Waryanli'}
+2024-03-26 02:59:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/warner-bros-studios?original=1>
+{'contributor': 'svg',
+ 'description': ['Warner Bros. Studios, Burbank, formerly known as First '
+                 'National Studio (1926–1929), Warner Bros.-Seven Arts Studios '
+                 '(1967–1970) and The Burbank Studios (1972–1990), is a major '
+                 'filmmaking facility owned and run by Warner Bros. '
+                 'Entertainment Inc. in Burbank, California. First National '
+                 'Pictures built the 62-acre (25 ha) studio lot in 1926 as it '
+                 'expanded from a film distributor to film production.',
+                 'Download the vector logo of the Warner Bros. Studios brand '
+                 'designed by Chermayeff & Geismar & Haviv in\n'
+                 '    Scalable Vector Graphics (SVG) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'unknown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/warner_bros._studios_logo_2024.png?3gllEw4uu5cZ_IjNCpwCQv28_Z920OG0&itok=8Jk3eGUW'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/arts', 'Arts'),
+           ('/logos/countries/us', 'United States')],
+ 'title': 'Warner Bros. Studios',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Wed, 03/20/2024 - 21:34',
+ 'website': 'Chermayeff & Geismar & Haviv'}
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/charros-de-jalisco-softbol-2024?original=1> (referer: https://www.brandsoftheworld.com/logo/charros-de-jalisco-softbol-2024)
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logos?page=5> (referer: https://www.brandsoftheworld.com/logos?page=4)
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/the-brand-guys> (referer: https://www.brandsoftheworld.com/logos?page=4)
+2024-03-26 03:00:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/charros-de-jalisco-softbol-2024?original=1>
+{'contributor': 'Jakovo M2',
+ 'description': ['Download the vector logo of the Charros de Jalisco Softbol '
+                 '2024- brand designed by Charros de Jalisco Softbol  in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Charros de Jalisco Softbol ',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/charros_de_jalisco_softbol_2024-.jpg?IBBugb66gwllX8eUSoFXZUW_ecXMoZCW&itok=h8f2HRyd'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/sports', 'Sports'),
+           ('/logos/countries/mx', 'Mexico')],
+ 'title': 'Charros de Jalisco Softbol 2024-',
+ 'updated_on': 'Mon, 03/18/2024 - 20:03',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-molde-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=3)
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-naftan-novopolotsk-1> (referer: https://www.brandsoftheworld.com/logos?page=3)
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-lovech-mid-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=3)
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/garcis-2> (referer: https://www.brandsoftheworld.com/logos?page=4)
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/garcis-3> (referer: https://www.brandsoftheworld.com/logos?page=4)
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/patriotska-liga-bih> (referer: https://www.brandsoftheworld.com/logos?page=4)
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/rfc-antwerpen-mid-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=3)
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/valerenga-if-oslo-mid-1990s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/valerenga-if-oslo-mid-1990s-logo)
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/politechnika-wroclawska-wroclaw-university-of-science-and-technology> (referer: https://www.brandsoftheworld.com/logos?page=4)
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fc-chelsea-london-late-1990s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/fc-chelsea-london-late-1990s-logo)
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/digital-design-studio-aardig> (referer: https://www.brandsoftheworld.com/logos?page=4)
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/gowith> (referer: https://www.brandsoftheworld.com/logos?page=4)
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/marvel-animation> (referer: https://www.brandsoftheworld.com/logos?page=4)
+2024-03-26 03:00:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/valerenga-if-oslo-mid-1990s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Norway',
+                 'Download the vector logo of the Valerenga IF Oslo (mid '
+                 "1990's logo) brand designed by Dmitry Lukyanchuk "
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/volerenga_oslo_norvegiya_old_logo4.jpg?OlXjNaNSSHgaqVU_MZRQWf_VsfVyonzN&itok=tX1LUBq7'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/no', 'Norway')],
+ 'title': "Valerenga IF Oslo (mid 1990's logo)",
+ 'updated_on': 'Tue, 03/19/2024 - 16:09',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/fc-chelsea-london-late-1990s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, England',
+                 'Download the vector logo of the FC Chelsea London (late '
+                 "1990's logo) brand designed by Dmitry Lukyanchuk "
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/chelsi_london_angliya_old_logo4.jpg?.NowZ85dKb.Bn9h.XMLmxukOxyWiWcBH&itok=HSrJguJ2'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/uk', 'United Kingdom')],
+ 'title': "FC Chelsea London (late 1990's logo)",
+ 'updated_on': 'Tue, 03/19/2024 - 16:09',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logos?page=6> (referer: https://www.brandsoftheworld.com/logos?page=5)
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/escuela-de-lenguas-campus-iv-unach-tapachula> (referer: https://www.brandsoftheworld.com/logos?page=5)
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/logo-6> (referer: https://www.brandsoftheworld.com/logos?page=5)
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/school-health-affairs-in-unaizah-lshwwn-lshy-lmdrsy-bnyz> (referer: https://www.brandsoftheworld.com/logos?page=5)
+2024-03-26 03:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/kks-baltyk-koszalin> (referer: https://www.brandsoftheworld.com/logos?page=5)
+2024-03-26 03:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/islamic-university-madinah-ljm-lslmy-blmdyn-lmnwr> (referer: https://www.brandsoftheworld.com/logos?page=5)
+2024-03-26 03:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/patriotska-liga-bih?original=1> (referer: https://www.brandsoftheworld.com/logo/patriotska-liga-bih)
+2024-03-26 03:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/rayo-vallecano-madrid-late-1990s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/rayo-vallecano-madrid-late-1990s-logo)
+2024-03-26 03:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/garcis-3?original=1> (referer: https://www.brandsoftheworld.com/logo/garcis-3)
+2024-03-26 03:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/garcis-2?original=1> (referer: https://www.brandsoftheworld.com/logo/garcis-2)
+2024-03-26 03:00:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/patriotska-liga-bih?original=1>
+{'contributor': 'Emir Delalic 3eko',
+ 'description': ['Patriotska liga Bosne i Hercegovine',
+                 'Download the vector logo of the Patriotska liga BiH brand '
+                 'designed by n/n in\n'
+                 '    Portable Document Format (PDF) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'n/n',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/patriotska_liga_bih_logo.jpg?KrOkF0Ea0XMtcaCXcDDsdAAio10U71pf&itok=9tHUaXGC'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/military', 'Military'),
+           ('/logos/countries/ba', 'Bosnia & Herzegovina')],
+ 'title': 'Patriotska liga BiH',
+ 'updated_on': 'Tue, 03/12/2024 - 17:34',
+ 'vector_format': 'pdf',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/rayo-vallecano-madrid-late-1990s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Spain',
+                 'Download the vector logo of the Rayo Vallecano Madrid (late '
+                 "1990's logo) brand designed by Dmitry Lukyanchuk "
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/rayo_valekano_madrid_ispaniya_old_logo3.jpg?VeWLHlDEg9ncV7qhYvF.yLIhYSRDxv.d&itok=q8KCOm97'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/es', 'Spain')],
+ 'title': "Rayo Vallecano Madrid (late 1990's logo)",
+ 'updated_on': 'Tue, 03/19/2024 - 16:09',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/garcis-3?original=1>
+{'contributor': 'pdf',
+ 'description': ['Garcis Classic Logo',
+                 'Download the vector logo of the Garcis brand designed by '
+                 'Garcis Mexico in\n'
+                 '    Portable Document Format (PDF) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'Mexican Footwear',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/logo_garcis_solo_letras.jpg?q4z6jk8eYuK50qEIiUmtWDAv.7_AKJNI&itok=e78_V-0r'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/sports', 'Sports'),
+           ('/logos/countries/mx', 'Mexico')],
+ 'title': 'Garcis',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Tue, 03/12/2024 - 17:34',
+ 'website': 'Garcis Mexico'}
+2024-03-26 03:00:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/garcis-2?original=1>
+{'contributor': 'pdf',
+ 'description': ['Garcis Tech Logo',
+                 'Download the vector logo of the Garcis brand designed by '
+                 'Garcis Mexico in\n'
+                 '    Portable Document Format (PDF) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'Mexican Footwear',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/fondo_blanco.jpg?G9RTb6_Yjjp1DxLRlUmA7kjlCeJCuAlt&itok=sepcTWr4'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/sports', 'Sports'),
+           ('/logos/countries/mx', 'Mexico')],
+ 'title': 'Garcis',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Tue, 03/12/2024 - 17:34',
+ 'website': 'Garcis Mexico'}
+2024-03-26 03:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-transinvest-vilnius> (referer: https://www.brandsoftheworld.com/logos?page=5)
+2024-03-26 03:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/marvel-animation?original=1> (referer: https://www.brandsoftheworld.com/logo/marvel-animation)
+2024-03-26 03:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/gowith?original=1> (referer: https://www.brandsoftheworld.com/logo/gowith)
+2024-03-26 03:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/x-men-97> (referer: https://www.brandsoftheworld.com/logos?page=4)
+2024-03-26 03:00:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/marvel-animation?original=1>
+{'contributor': 'Jakovo M2',
+ 'description': ['Download the vector logo of the MARVEL animation brand '
+                 'designed by MARVEL in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'MARVEL',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/marvel_animation.png?YjPx6IOhePp6FNWp8JRxRhXd8tg_yc4e&itok=yEGnCe5f'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/arts', 'Arts'),
+           ('/logos/countries/us', 'United States')],
+ 'title': 'MARVEL animation',
+ 'updated_on': 'Wed, 03/13/2024 - 16:32',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/gowith?original=1>
+{'contributor': 'pdf',
+ 'description': ['For over 30 years, GoWith has been crafting high-quality '
+                 'socks designed to meet the needs of people who appreciate '
+                 'quality and style. Our socks are carefully crafted using the '
+                 'finest materials and cutting-edge manufacturing techniques, '
+                 'ensuring that every pair is as comfortable as it is durable.',
+                 'Download the vector logo of the GoWith brand designed by '
+                 'GoWith in\n'
+                 '    Portable Document Format (PDF) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'GoWith',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/gowith-logo-800x800.png?VJJmyrDpe3QX3RRXiYiRp4ZIB_DExCGO&itok=1fsH7slx'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/fashion', 'Fashion'),
+           ('/logos/countries/us', 'United States')],
+ 'title': 'GoWith',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Tue, 03/12/2024 - 17:34',
+ 'website': 'GoWith'}
+2024-03-26 03:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/deadpool-wolverine-icon> (referer: https://www.brandsoftheworld.com/logos?page=4)
+2024-03-26 03:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/digital-design-studio-aardig?original=1> (referer: https://www.brandsoftheworld.com/logo/digital-design-studio-aardig)
+2024-03-26 03:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/politechnika-wroclawska-wroclaw-university-of-science-and-technology?original=1> (referer: https://www.brandsoftheworld.com/logo/politechnika-wroclawska-wroclaw-university-of-science-and-technology)
+2024-03-26 03:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/kks-baltyk-koszalin?original=1> (referer: https://www.brandsoftheworld.com/logo/kks-baltyk-koszalin)
+2024-03-26 03:00:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/digital-design-studio-aardig?original=1>
+{'contributor': 'svg',
+ 'description': ['aardig (Dutch word for friendly) is a digital design studio '
+                 'that creates positive change by unique online creation. We '
+                 'combine the power of design, tech, and content to make the '
+                 'inspiring visions of mission-driven organisations come true. '
+                 'In an extraordinary, crystal clear and meaningful way. Our '
+                 'mission as a studio is straightforward: we contribute to the '
+                 'common interest through the use of digital. How we help? We '
+                 'make branding, design digital and develop these experiences '
+                 'within weeks. A unique and interactive website is always at '
+                 'the centre.',
+                 'Download the vector logo of the digital design studio aardig '
+                 'brand designed by corné van den bos in\n'
+                 '    Scalable Vector Graphics (SVG) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'unknown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/aardig_logo.png?ofHm7fRX3GWqWRnxi0z6vLNAXHoUKSRt&itok=Vgax8gjI'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/design', 'Design'),
+           ('/logos/countries/nl', 'Netherlands')],
+ 'title': 'digital design studio aardig',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Tue, 03/12/2024 - 17:34',
+ 'website': 'corné van den bos'}
+2024-03-26 03:00:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/politechnika-wroclawska-wroclaw-university-of-science-and-technology?original=1>
+{'contributor': 'ai',
+ 'description': ['WCTT is a separate unit of Wrocław University of Science and '
+                 'Technology. the WCTT logo is not a necessary part of the '
+                 'Wrocław University of Science and Technology logo',
+                 'Download the vector logo of the Politechnika Wrocławska / '
+                 'Wrocław University of Science and Technology brand designed '
+                 'by Politechnika Wrocławska / Wrocław University of Science '
+                 'and Technology in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Politechnika Wrocławska / Wrocław University of Science and '
+             'Technology',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/znak-pwr_pion-cmyk-pl.jpg?2raV0RwAhyKRxPFbWfB03Dw8OOu97nBn&itok=NkQiCKvC'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/education', 'Education'),
+           ('/logos/countries/pl', 'Poland')],
+ 'title': 'Politechnika Wrocławska / Wrocław University of Science and '
+          'Technology',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Tue, 03/12/2024 - 17:34',
+ 'website': 'Politechnika Wrocławska / Wrocław University of Science and '
+            'Technology'}
+2024-03-26 03:00:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/kks-baltyk-koszalin?original=1>
+{'contributor': 'ziobro',
+ 'description': ['Download the vector logo of the KKS Bałtyk Koszalin brand '
+                 'designed by  in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'unkown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/baltyk_koszalin_3a_duzy.png?we0BG75C.ZuZA1jXGT_wS6WGV8WEhiNW&itok=VQmDuZ7n'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/sports', 'Sports'),
+           ('/logos/countries/pt', 'Portugal')],
+ 'title': 'KKS Bałtyk Koszalin',
+ 'updated_on': 'Mon, 03/11/2024 - 18:20',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/school-health-affairs-in-unaizah-lshwwn-lshy-lmdrsy-bnyz?original=1> (referer: https://www.brandsoftheworld.com/logo/school-health-affairs-in-unaizah-lshwwn-lshy-lmdrsy-bnyz)
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-lovech-mid-1990s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/fk-lovech-mid-1990s-logo)
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/logo-6?original=1> (referer: https://www.brandsoftheworld.com/logo/logo-6)
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logos?page=7> (referer: https://www.brandsoftheworld.com/logos?page=6)
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/escuela-de-lenguas-campus-iv-unach-tapachula?original=1> (referer: https://www.brandsoftheworld.com/logo/escuela-de-lenguas-campus-iv-unach-tapachula)
+2024-03-26 03:00:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/school-health-affairs-in-unaizah-lshwwn-lshy-lmdrsy-bnyz?original=1>
+{'contributor': 'School health affairs in Unaizah ',
+ 'description': ['الشؤون الصحية المدرسية بعنيزة',
+                 'Download the vector logo of the School health affairs in '
+                 'Unaizah الشؤون الصحية المدرسية بعنيزة brand designed by '
+                 'Aziz in\n'
+                 '    CorelDRAW® format. The current status of the logo is '
+                 'active, which means the logo is currently in use.'],
+ 'designer': 'Aziz',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/school_health_affairs_in_unaizah.jpg?QRAecOjDtEJXXqX.Gq3ASe4XobphsWKl&itok=KRBLcA_9'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/education', 'Education'),
+           ('/logos/countries/sa', 'Saudi Arabia')],
+ 'title': 'School health affairs in Unaizah الشؤون الصحية المدرسية بعنيزة',
+ 'updated_on': 'Mon, 03/11/2024 - 18:20',
+ 'vector_format': 'cdr',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/fk-lovech-mid-1990s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Bulgaria',
+                 "Download the vector logo of the FK Lovech (mid 1990's logo) "
+                 'brand designed by Dmitry Lukyanchuk '
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/lovech_bolgariya_old_logo2.jpg?0BQKxaDJb7Nb37GM.22yeZ_NfLikVSf5&itok=kmTrVoxQ'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/bg', 'Bulgaria')],
+ 'title': "FK Lovech (mid 1990's logo)",
+ 'updated_on': 'Tue, 03/19/2024 - 16:09',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/logo-6?original=1>
+{'contributor': 'unknown',
+ 'description': ['Download the vector logo of the Logo brand designed by  in\n'
+                 '    Scalable Vector Graphics (SVG) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'unkown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/imagem_2024-03-07_174011202.png?mvxx3IX6754prcMXoZ1UzHAFJr_cJGLu&itok=dlzsAjqL'],
+ 'status': 'Active ',
+ 'terms': [],
+ 'title': 'Logo',
+ 'updated_on': 'Mon, 03/11/2024 - 18:20',
+ 'vector_format': 'svg',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/escuela-de-lenguas-campus-iv-unach-tapachula?original=1>
+{'contributor': 'cdr',
+ 'description': ['Download the vector logo of the Escuela de Lenguas Campus IV '
+                 'UNACH Tapachula brand designed by Redibujo: José Ave / '
+                 'Original: Desconocido in\n'
+                 '    CorelDRAW® format. The current status of the logo is '
+                 'active, which means the logo is currently in use.'],
+ 'designer': 'José Ave / AveDos Taller Creativo',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/logo-lenguas-unach-tapachula.jpg?PqZXQXahexm_CbWuFvfpPELl7fuiiN4b&itok=Ug9EX0-e'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/education', 'Education'),
+           ('/logos/countries/mx', 'Mexico')],
+ 'title': 'Escuela de Lenguas Campus IV UNACH Tapachula',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Mon, 03/11/2024 - 18:20',
+ 'website': 'Redibujo: José Ave / Original: Desconocido'}
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-molde-1990s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/fk-molde-1990s-logo)
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/islamic-university-madinah-ljm-lslmy-blmdyn-lmnwr?original=1> (referer: https://www.brandsoftheworld.com/logo/islamic-university-madinah-ljm-lslmy-blmdyn-lmnwr)
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-naftan-novopolotsk-1?original=1> (referer: https://www.brandsoftheworld.com/logo/fk-naftan-novopolotsk-1)
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/positiwise-software-pvt-ltd> (referer: https://www.brandsoftheworld.com/logos?page=6)
+2024-03-26 03:00:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/fk-molde-1990s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Norway',
+                 "Download the vector logo of the FK Molde (1990's logo) brand "
+                 'designed by Dmitry Lukyanchuk '
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/molde_norvegiya_old_logo3.jpg?c0Jn.8sJxgoa18Cy4fIWF5rsgjMDH1d0&itok=rHxxu0vj'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/no', 'Norway')],
+ 'title': "FK Molde (1990's logo)",
+ 'updated_on': 'Tue, 03/19/2024 - 16:09',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/islamic-university-madinah-ljm-lslmy-blmdyn-lmnwr?original=1>
+{'contributor': 'unknown',
+ 'description': ['ISLAMIC UNIVERSITY MADINAH الجامعة الإسلامية بالمدينة '
+                 'المنورة',
+                 'Download the vector logo of the ISLAMIC UNIVERSITY MADINAH '
+                 'الجامعة الإسلامية بالمدينة المنورة brand designed by Aziz '
+                 'in\n'
+                 '    CorelDRAW® format. The current status of the logo is '
+                 'active, which means the logo is currently in use.'],
+ 'designer': 'Aziz',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/islamic_university_madinah.jpg?91y53.jjGFOj_DX2_nbXv6MGSbCDcBYG&itok=QSoi5YxV'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/education', 'Education'),
+           ('/logos/countries/sa', 'Saudi Arabia')],
+ 'title': 'ISLAMIC UNIVERSITY MADINAH الجامعة الإسلامية بالمدينة المنورة',
+ 'updated_on': 'Mon, 03/11/2024 - 18:20',
+ 'vector_format': 'cdr',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/baltyk-gdynia-old> (referer: https://www.brandsoftheworld.com/logos?page=6)
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/calientemx> (referer: https://www.brandsoftheworld.com/logos?page=6)
+2024-03-26 03:00:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/fk-naftan-novopolotsk-1?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Belarus',
+                 'Download the vector logo of the FK Naftan Novopolotsk brand '
+                 'designed by Dmitry Lukyanchuk '
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/naftan_novopolock_belorussiya.jpg?pnSM57Li6v0dI41sBT6XVO2R9nOj.OgJ&itok=kw12WTqA'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/by', 'Belarus')],
+ 'title': 'FK Naftan Novopolotsk',
+ 'updated_on': 'Tue, 03/19/2024 - 16:09',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/rfc-antwerpen-mid-1990s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/rfc-antwerpen-mid-1990s-logo)
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-transinvest-vilnius?original=1> (referer: https://www.brandsoftheworld.com/logo/fk-transinvest-vilnius)
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/tsshara> (referer: https://www.brandsoftheworld.com/logos?page=6)
+2024-03-26 03:00:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/rfc-antwerpen-mid-1990s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Belgium',
+                 "Download the vector logo of the RFC Antwerpen (mid 1990's "
+                 'logo) brand designed by Dmitry Lukyanchuk '
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/antverpen_belgiya_old_logo5.jpg?Wfpc9XtSL.osegRV6tL_bP.nK26JwkPo&itok=jluC4anP'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/be', 'Belgium')],
+ 'title': "RFC Antwerpen (mid 1990's logo)",
+ 'updated_on': 'Tue, 03/19/2024 - 16:09',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/swimmer> (referer: https://www.brandsoftheworld.com/logos?page=6)
+2024-03-26 03:00:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/fk-transinvest-vilnius?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Lithuania',
+                 'Download the vector logo of the FK Transinvest Vilnius brand '
+                 'designed by Dmitry Lukyanchuk '
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/transinvest_vilnyus_litva.jpg?X3G22T.nv9XCIZBBCBwYVbKn8owa04RT&itok=PvlmqqOc'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/lt', 'Lithuania')],
+ 'title': 'FK Transinvest Vilnius',
+ 'updated_on': 'Mon, 03/11/2024 - 18:10',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/baltyk-gdynia-0> (referer: https://www.brandsoftheworld.com/logos?page=6)
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/e5-wheels> (referer: https://www.brandsoftheworld.com/logos?page=6)
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logos?page=8> (referer: https://www.brandsoftheworld.com/logos?page=7)
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/steaua-bucharest-late-1980s-logo> (referer: https://www.brandsoftheworld.com/logos?page=7)
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fc-farul-constanta-late-1980s-logo> (referer: https://www.brandsoftheworld.com/logos?page=7)
+2024-03-26 03:00:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/sportul-studentesc-bucharest-late-1970s-early-1980s-logo> (referer: https://www.brandsoftheworld.com/logos?page=7)
+2024-03-26 03:00:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/deadpool-wolverine-icon?original=1> (referer: https://www.brandsoftheworld.com/logo/deadpool-wolverine-icon)
+2024-03-26 03:00:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/cs-politehnica-timisoara-1980s-logo> (referer: https://www.brandsoftheworld.com/logos?page=7)
+2024-03-26 03:00:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/x-men-97?original=1> (referer: https://www.brandsoftheworld.com/logo/x-men-97)
+2024-03-26 03:00:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fcm-resita-mid-1970s-logo> (referer: https://www.brandsoftheworld.com/logos?page=7)
+2024-03-26 03:00:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/baltyk-gdynia-old?original=1> (referer: https://www.brandsoftheworld.com/logo/baltyk-gdynia-old)
+2024-03-26 03:00:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/calientemx?original=1> (referer: https://www.brandsoftheworld.com/logo/calientemx)
+2024-03-26 03:00:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/deadpool-wolverine-icon?original=1>
+{'contributor': 'Jakovo M2',
+ 'description': ['Download the vector logo of the Deadpool & Wolverine icon '
+                 'brand designed by MARVEL in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'MARVEL',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/deadpool_wolverine_icon.jpg?xuhVjXKWuiAPvQz40O_6gVZMvf3K9LVC&itok=SabHRSGQ'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/arts', 'Arts'),
+           ('/logos/countries/us', 'United States')],
+ 'title': 'Deadpool & Wolverine icon',
+ 'updated_on': 'Wed, 03/13/2024 - 16:32',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/x-men-97?original=1>
+{'contributor': 'Jakovo M2',
+ 'description': ['Download the vector logo of the X-MEN 97 brand designed by '
+                 'MARVEL in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'MARVEL',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/x-men_97.jpg?9wLS9R5rIE4vKqApHN2Hn1.mGZJHP1tb&itok=QjqQc3ns'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/arts', 'Arts'),
+           ('/logos/countries/us', 'United States')],
+ 'title': 'X-MEN 97',
+ 'updated_on': 'Wed, 03/13/2024 - 16:32',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/baltyk-gdynia-old?original=1>
+{'contributor': 'ziobro',
+ 'description': ['old logo of the Baltyk Gdynia club',
+                 'Download the vector logo of the Baltyk Gdynia old brand '
+                 'designed by  in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'unkown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/baltyk_gdynia_10a_duzy.png?2g4pCRNGdm1g5CWuY6VEOrI7ZmKELEPa&itok=5NyBIHPD'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/sports', 'Sports'),
+           ('/logos/countries/pl', 'Poland')],
+ 'title': 'Baltyk Gdynia old',
+ 'updated_on': 'Wed, 03/06/2024 - 14:29',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/calientemx?original=1>
+{'contributor': 'Jakovo M2',
+ 'description': ['Download the vector logo of the Caliente.mx brand designed '
+                 'by Caliente in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Caliente',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/caliente.mx_.jpg?ObaTTrHiy3GEncu1lmaUSWv3VzAcJTx.&itok=uU4Sx7ll'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/business', 'Business'),
+           ('/logos/countries/mx', 'Mexico')],
+ 'title': 'Caliente.mx',
+ 'updated_on': 'Wed, 03/06/2024 - 14:29',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/positiwise-software-pvt-ltd?original=1> (referer: https://www.brandsoftheworld.com/logo/positiwise-software-pvt-ltd)
+2024-03-26 03:00:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/e5-wheels?original=1> (referer: https://www.brandsoftheworld.com/logo/e5-wheels)
+2024-03-26 03:00:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/baltyk-gdynia-0?original=1> (referer: https://www.brandsoftheworld.com/logo/baltyk-gdynia-0)
+2024-03-26 03:00:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/positiwise-software-pvt-ltd?original=1>
+{'contributor': 'svg',
+ 'description': ['Positiwise Software Pvt Ltd offers end-to-end software '
+                 'development solutions, including WordPress development '
+                 'services, E-commerce development, and .NET development '
+                 'services, to accelerate the digital growth of businesses. '
+                 'With over 10 years of experience, we are pioneers in '
+                 'software development, serving sectors such as Retail, '
+                 'E-commerce, CRM, Web Security Services, Cloud, and Database '
+                 'optimization. Our team of professionals excels in handling '
+                 'simple to complex business requirements.',
+                 'Additionally, we provide Digital Marketing Services, Web '
+                 'Security, and Cloud solutions, such as SSL Certificates, '
+                 'Brute Force Attack protection, DDoS mitigations, '
+                 'Vulnerability scans, DSS-PCI Certification, AWS '
+                 'Infrastructure, Microsoft Azure Infrastructure, and 24x7 NOC '
+                 'Support.',
+                 'Please feel free to contact us today for any software '
+                 'development or IT outsourcing requirements.',
+                 'Download the vector logo of the Positiwise Software Pvt Ltd '
+                 'brand designed by  in\n'
+                 '    Scalable Vector Graphics (SVG) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'unknown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/positiwise_logo_clear.jpg?aFmEcpitnawXBU6Ilgc18kgtT91WlJgP&itok=rXq21ppA'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/technology', 'Technology'),
+           ('/logos/countries/us', 'United States')],
+ 'title': 'Positiwise Software Pvt Ltd',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Mon, 03/04/2024 - 18:33',
+ 'website': 'unkown'}
+2024-03-26 03:00:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/e5-wheels?original=1>
+{'contributor': 'eps',
+ 'description': ['E5, short for Element 5, is a passionate and dedicated wheel '
+                 'company that specializes exclusively in crafting '
+                 'high-quality wheels for Corvettes. Our team consists of true '
+                 'Corvette enthusiasts who have amassed over 40 years of '
+                 'experience in the wheel industry. As the original founder of '
+                 'American Force Wheels and other prominent wheel brands, we '
+                 'have a proven track record of excellence.',
+                 'At E5, we harness our extensive expertise to create truly '
+                 'unique designs and perfect fitments that meet the exacting '
+                 'specifications of each Corvette model. Our commitment to '
+                 'precision ensures that all our wheels are built to be '
+                 'hub-centric, providing a superior experience for our '
+                 'customers. We understand that you could have chosen any car, '
+                 'but you opted for a Corvette because it embodies a distinct '
+                 'spirit and performance that sets it apart.',
+                 'Here at E5, we firmly believe that we produce the best '
+                 'fitments for your Corvette. Our passion for this iconic '
+                 'vehicle fuels our drive to deliver wheels that not only '
+                 'enhance its appearance but also optimize its performance. We '
+                 'strive to go beyond expectations by consistently pushing the '
+                 'boundaries of design and engineering. By tailoring each '
+                 'wheel to your specific Corvette application, we ensure that '
+                 'you receive a product that perfectly complements the '
+                 'aesthetics and functionality of your beloved Corvette.',
+                 'When you choose E5, you are choosing a company that shares '
+                 'your enthusiasm for Corvettes. We are dedicated to providing '
+                 'an exceptional experience and take pride in our '
+                 'craftsmanship. Our goal is to elevate your Corvette’s style '
+                 'and performance with wheels that embody the spirit of Earth, '
+                 'water, air, fire, and, most importantly, Corvette—the fifth '
+                 'element. E5',
+                 'Download the vector logo of the E5 Wheels brand designed by '
+                 'E5 Wheels in\n'
+                 '    Encapsulated PostScript (EPS) format. The current status '
+                 'of the logo is active, which means the logo is currently in '
+                 'use.'],
+ 'designer': 'Deyan Font',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/e5_wheels_logo_0.jpg?lOughQut9Og6vjzMmOjKtY8d5IN0djG6&itok=CsiHwxpj'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/auto', 'Auto'),
+           ('/logos/countries/us', 'United States')],
+ 'title': 'E5 Wheels',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Wed, 03/06/2024 - 14:29',
+ 'website': 'E5 Wheels'}
+2024-03-26 03:00:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/baltyk-gdynia-0?original=1>
+{'contributor': 'ziobro',
+ 'description': ['old logo of the Baltyk Gdynia club',
+                 'Download the vector logo of the Bałtyk Gdynia brand designed '
+                 'by  in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'unkown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/baltyk_gdynia_9a_duzy.png?jrMjmffEMJko6VCEXbkzuWEUnfRZL4gv&itok=2cRAA62R'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/sports', 'Sports'),
+           ('/logos/countries/pl', 'Poland')],
+ 'title': 'Bałtyk Gdynia',
+ 'updated_on': 'Wed, 03/06/2024 - 14:29',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/aspen-graphics> (referer: https://www.brandsoftheworld.com/logos?page=6)
+2024-03-26 03:00:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/swimmer?original=1> (referer: https://www.brandsoftheworld.com/logo/swimmer)
+2024-03-26 03:00:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/tsshara?original=1> (referer: https://www.brandsoftheworld.com/logo/tsshara)
+2024-03-26 03:00:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/sportul-studentesc-bucharest-late-1970s-early-1980s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/sportul-studentesc-bucharest-late-1970s-early-1980s-logo)
+2024-03-26 03:00:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/swimmer?original=1>
+{'contributor': 'svg',
+ 'description': ["Take a look at my website, there's music, travel blogs, "
+                 'tutorials and diy projects.',
+                 'Download the vector logo of the Swimmer brand designed by '
+                 'Swimmer in\n'
+                 '    Scalable Vector Graphics (SVG) format. The current '
+                 'status of the logo is active, which means the logo is '
+                 'currently in use.'],
+ 'designer': 'Swimmer',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/signature.png?1qEPaTdcaUiQ3HKg_OinMOWihkMJwVhu&itok=G_mUNVsD'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/music', 'Music')],
+ 'title': 'Swimmer',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Wed, 03/06/2024 - 14:29',
+ 'website': 'Swimmer'}
+2024-03-26 03:00:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/aspenco-autostyle> (referer: https://www.brandsoftheworld.com/logos?page=6)
+2024-03-26 03:00:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/tsshara?original=1>
+{'contributor': 'Antonio',
+ 'description': ['Novo logotipo TSSHARA vetorizado',
+                 'Download the vector logo of the TSSHARA brand designed by  '
+                 'in\n'
+                 '    CorelDRAW® format. The current status of the logo is '
+                 'active, which means the logo is currently in use.'],
+ 'designer': 'unkown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/tsshara_0.jpg?1V3WodtBap_S6x2ya3zY1kKa6P5fiC7.&itok=420dwq0L'],
+ 'status': 'Active ',
+ 'terms': [('/logos/categories/technology', 'Technology'),
+           ('/logos/countries/br', 'Brazil')],
+ 'title': 'TSSHARA',
+ 'updated_on': 'Wed, 03/06/2024 - 14:29',
+ 'vector_format': 'cdr',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/sportul-studentesc-bucharest-late-1970s-early-1980s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Romania',
+                 'Download the vector logo of the Sportul Studentesc Bucharest '
+                 "(late 1970's - early 1980's logo) brand designed by Dmitry "
+                 'Lukyanchuk (https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/sportul_buharest_rumyniya_old_logo_late_70_-_early_80.jpg?B4Gmr7Uwzx67_AjTYAiWXlJ0F7mAvsoK&itok=ujbi9P2t'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/ro', 'Romania')],
+ 'title': "Sportul Studentesc Bucharest (late 1970's - early 1980's logo)",
+ 'updated_on': 'Mon, 03/04/2024 - 18:16',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fc-farul-constanta-late-1980s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/fc-farul-constanta-late-1980s-logo)
+2024-03-26 03:00:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/steaua-bucharest-late-1980s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/steaua-bucharest-late-1980s-logo)
+2024-03-26 03:00:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logos?page=9> (referer: https://www.brandsoftheworld.com/logos?page=8)
+2024-03-26 03:00:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-zeta-golubovci-early-2000s-logo> (referer: https://www.brandsoftheworld.com/logos?page=8)
+2024-03-26 03:00:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/fc-farul-constanta-late-1980s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Romania',
+                 'Download the vector logo of the FC Farul Constanta (late '
+                 "1980's logo) brand designed by Dmitry Lukyanchuk "
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/farul_konstanca_rumyniya_old_logo7_late_80.jpg?HV7f2J50Fft35Cc3YDY_8UTczxEEtirY&itok=CKtPgc_e'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/ro', 'Romania')],
+ 'title': "FC Farul Constanta (late 1980's logo)",
+ 'updated_on': 'Mon, 03/04/2024 - 18:16',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fc-sankt-pauli-hamburg-late-1980s-early-1990s-logo> (referer: https://www.brandsoftheworld.com/logos?page=8)
+2024-03-26 03:00:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/steaua-bucharest-late-1980s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Romania',
+                 'Download the vector logo of the Steaua Bucharest (late '
+                 "1980's logo) brand designed by Dmitry Lukyanchuk "
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/styaua_buharest_rumyniya_old_logo4_80.jpg?DULNj3GTQGzyQsetZR0AH.oxoUhY0YYm&itok=3D_uoAw7'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/ro', 'Romania')],
+ 'title': "Steaua Bucharest (late 1980's logo)",
+ 'updated_on': 'Mon, 03/04/2024 - 18:16',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/gts-wisla-krakow-late-1970s-1980s-logo> (referer: https://www.brandsoftheworld.com/logos?page=7)
+2024-03-26 03:00:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fcm-resita-mid-1970s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/fcm-resita-mid-1970s-logo)
+2024-03-26 03:00:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/cs-politehnica-timisoara-1980s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/cs-politehnica-timisoara-1980s-logo)
+2024-03-26 03:00:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/sc-rot-weiss-oberhausen-early-1970s-logo> (referer: https://www.brandsoftheworld.com/logos?page=8)
+2024-03-26 03:00:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/cwks-legia-warsaw-1970s-logo> (referer: https://www.brandsoftheworld.com/logos?page=7)
+2024-03-26 03:00:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/tj-dac-polnohospodar-dunajska-streda-mid-1980s-logo> (referer: https://www.brandsoftheworld.com/logos?page=8)
+2024-03-26 03:00:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/tj-dac-polnohospodar-dunajska-streda-late-1980s-logo> (referer: https://www.brandsoftheworld.com/logos?page=8)
+2024-03-26 03:00:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/fcm-resita-mid-1970s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Romania',
+                 "Download the vector logo of the FCM Resita (mid 1970's logo) "
+                 'brand designed by Dmitry Lukyanchuk '
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/reshica_rumyniya_old_logo2_mid_70.jpg?vwb1F9dHuFB6W5ij5qEL_Hri45.zp3jN&itok=3jQm2wxC'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/ro', 'Romania')],
+ 'title': "FCM Resita (mid 1970's logo)",
+ 'updated_on': 'Mon, 03/04/2024 - 18:16',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/cs-politehnica-timisoara-1980s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Romania',
+                 'Download the vector logo of the CS Politehnica Timisoara '
+                 "(1980's logo) brand designed by Dmitry Lukyanchuk "
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/politehnika_timishoara_rumyniya_old_logo5_80.jpg?jQxIgg24keed4q8XaboUVhKCtCLr6ACz&itok=2vIBGlM0'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/ro', 'Romania')],
+ 'title': "CS Politehnica Timisoara (1980's logo)",
+ 'updated_on': 'Mon, 03/04/2024 - 18:16',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/tj-liaz-jablonec-nad-nisou-mid-1970s-logo> (referer: https://www.brandsoftheworld.com/logos?page=8)
+2024-03-26 03:00:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/tj-vsz-lokomotiva-kosice-1960s-logo> (referer: https://www.brandsoftheworld.com/logos?page=8)
+2024-03-26 03:00:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/csm-suceava-1980s-logo> (referer: https://www.brandsoftheworld.com/logos?page=7)
+2024-03-26 03:00:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fc-sankt-pauli-hamburg-late-1980s-early-1990s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/fc-sankt-pauli-hamburg-late-1980s-early-1990s-logo)
+2024-03-26 03:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/aspen-graphics?original=1> (referer: https://www.brandsoftheworld.com/logo/aspen-graphics)
+2024-03-26 03:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/fc-sankt-pauli-hamburg-late-1980s-early-1990s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Germany',
+                 'Download the vector logo of the FC Sankt-Pauli Hamburg (late '
+                 "1980's - early 1990's logo) brand designed by Dmitry "
+                 'Lukyanchuk (https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/sankt-pauli_gamburg_frg_germaniya_old_logo2_late_80-_early_90.jpg?AGJV8_A9eWEq6m45zTy8l6zKm_gg0oYR&itok=dNPfCNuO'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/de', 'Germany')],
+ 'title': "FC Sankt-Pauli Hamburg (late 1980's - early 1990's logo)",
+ 'updated_on': 'Mon, 03/04/2024 - 18:17',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/slavia-ips-prague-1980s-logo> (referer: https://www.brandsoftheworld.com/logos?page=8)
+2024-03-26 03:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/tj-slavia-ips-prague-late-1970s-logo> (referer: https://www.brandsoftheworld.com/logos?page=8)
+2024-03-26 03:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/aspen-graphics?original=1>
+{'contributor': 'ai',
+ 'description': ['Download the vector logo of the Aspen Graphics brand '
+                 'designed by Keala Davey in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'unknown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/aspen_graphics_v2_vector_logo.png?BJSXBWMWfgZisWxUWAcAjkyfjQE2A6G_&itok=Sfh-iGct'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/auto', 'Auto'),
+           ('/logos/countries/au', 'Australia')],
+ 'title': 'Aspen Graphics',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Wed, 03/06/2024 - 14:29',
+ 'website': 'Keala Davey'}
+2024-03-26 03:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/aspenco-autostyle?original=1> (referer: https://www.brandsoftheworld.com/logo/aspenco-autostyle)
+2024-03-26 03:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/tj-ruda-hvezda-cheb-early-1980s-logo> (referer: https://www.brandsoftheworld.com/logos?page=8)
+2024-03-26 03:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/fk-zeta-golubovci-early-2000s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/fk-zeta-golubovci-early-2000s-logo)
+2024-03-26 03:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/sk-slavia-ips-prague-late-1980s-logo> (referer: https://www.brandsoftheworld.com/logos?page=8)
+2024-03-26 03:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/aspenco-autostyle?original=1>
+{'contributor': 'ai',
+ 'description': ['Download the vector logo of the Aspen.co Autostyle brand '
+                 'designed by Keala Davey in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'unknown',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/aspenco_autostyle_vector_logo.png?FHYPWiW_PE9KNQxmgdGeZoLQbDPLJpDH&itok=hBxw4eIP'],
+ 'status': 'No ratings ',
+ 'terms': [('/logos/categories/auto', 'Auto'),
+           ('/logos/countries/au', 'Australia')],
+ 'title': 'Aspen.co Autostyle',
+ 'vector_format': 'Active ',
+ 'vector_quality': 'Wed, 03/06/2024 - 14:29',
+ 'website': 'Keala Davey'}
+2024-03-26 03:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/fk-zeta-golubovci-early-2000s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Yugoslavia',
+                 'Download the vector logo of the FK Zeta Golubovci (early '
+                 "2000's logo) brand designed by Dmitry Lukyanchuk "
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/zeta_golubovcy_yugoslaviya_old_logo_early_00.jpg?LMZ3v_6BKhw5.NWKX2ydgkkIyils5kF0&itok=nZizRw4C'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/me', 'Montenegro')],
+ 'title': "FK Zeta Golubovci (early 2000's logo)",
+ 'updated_on': 'Mon, 03/04/2024 - 18:17',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logos?page=10> (referer: https://www.brandsoftheworld.com/logos?page=9)
+2024-03-26 03:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/longford-town-fc-1980s-logo> (referer: https://www.brandsoftheworld.com/logos?page=9)
+2024-03-26 03:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/waterford-united-fc-1980s-logo> (referer: https://www.brandsoftheworld.com/logos?page=9)
+2024-03-26 03:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/tj-spartak-zvu-hradec-kralove-early-1980s-logo> (referer: https://www.brandsoftheworld.com/logos?page=8)
+2024-03-26 03:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/cd-malaga-1980s-logo> (referer: https://www.brandsoftheworld.com/logos?page=9)
+2024-03-26 03:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/tj-dac-polnohospodar-dunajska-streda-late-1980s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/tj-dac-polnohospodar-dunajska-streda-late-1980s-logo)
+2024-03-26 03:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/tj-vsz-lokomotiva-kosice-1960s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/tj-vsz-lokomotiva-kosice-1960s-logo)
+2024-03-26 03:00:05 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2024-03-26 03:00:05 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2024-03-26 03:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/tj-dac-polnohospodar-dunajska-streda-late-1980s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Czechoslovakia',
+                 'Download the vector logo of the TJ DAC Polnohospodar '
+                 "Dunajska Streda (late 1980's logo) brand designed by Dmitry "
+                 'Lukyanchuk (https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/dak_dunayska_streda_chehoslovakiya_old_logo2_late_80.jpg?fzX2aNEewtNDWszTi0IHxeirJe5pTDIe&itok=r-lhp-QR'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/sk', 'Slovakia')],
+ 'title': "TJ DAC Polnohospodar Dunajska Streda (late 1980's logo)",
+ 'updated_on': 'Mon, 03/04/2024 - 18:16',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.brandsoftheworld.com/logo/tj-vsz-lokomotiva-kosice-1960s-logo?original=1>
+{'contributor': 'unknown',
+ 'description': ['football club, Czechoslovakia',
+                 'Download the vector logo of the TJ VSZ Lokomotiva Kosice '
+                 "(1960's logo) brand designed by Dmitry Lukyanchuk "
+                 '(https://efclogos.blogspot.com) in\n'
+                 '    Adobe® Illustrator® format. The current status of the '
+                 'logo is active, which means the logo is currently in use.'],
+ 'designer': 'Dmitry Lukyanchuk (https://efclogos.blogspot.com)',
+ 'image_urls': ['https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/032024/lokomotiva_koshice_chehoslovakiya_old_logo_60.jpg?vTp_AHDMqb8h4dUc47RbKqixob2cUBL.&itok=LpUoGR4v'],
+ 'status': 'Active ',
+ 'terms': [('/logos/countries/cz', 'Czechia')],
+ 'title': "TJ VSZ Lokomotiva Kosice (1960's logo)",
+ 'updated_on': 'Mon, 03/04/2024 - 18:16',
+ 'vector_format': 'ai',
+ 'vector_quality': 'No ratings '}
+2024-03-26 03:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/tj-dac-polnohospodar-dunajska-streda-mid-1980s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/tj-dac-polnohospodar-dunajska-streda-mid-1980s-logo)
+2024-03-26 03:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/gts-wisla-krakow-late-1970s-1980s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/gts-wisla-krakow-late-1970s-1980s-logo)
+2024-03-26 03:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/sc-rot-weiss-oberhausen-early-1970s-logo?original=1> (referer: https://www.brandsoftheworld.com/logo/sc-rot-weiss-oberhausen-early-1970s-logo)
+2024-03-26 03:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.brandsoftheworld.com/logo/real-zaragoza-cd-1970s-logo> (referer: https://www.brandsoftheworld.com/logos?page=9)
+2024-03-26 03:00:05 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2024-04-24 23:06:12 [scrapy.utils.log] INFO: Scrapy 2.11.1 started (bot: logo)
+2024-04-24 23:06:12 [scrapy.utils.log] INFO: Versions: lxml 5.1.0.0, libxml2 2.10.3, cssselect 1.2.0, parsel 1.9.0, w3lib 2.1.2, Twisted 24.3.0, Python 3.9.19 (main, Mar 21 2024, 17:21:27) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 24.1.0 (OpenSSL 3.2.1 30 Jan 2024), cryptography 42.0.5, Platform Windows-10-10.0.22631-SP0
+2024-04-24 23:06:12 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-04-24 23:06:12 [asyncio] DEBUG: Using selector: SelectSelector
+2024-04-24 23:06:12 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2024-04-24 23:06:12 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2024-04-24 23:06:12 [scrapy.extensions.telnet] INFO: Telnet Password: ca8049eaaac91764
+2024-04-24 23:06:12 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2024-04-24 23:06:12 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'logo',
+ 'CONCURRENT_REQUESTS': 8,
+ 'DOWNLOAD_DELAY': 0.5,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'logo.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['logo.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2024-04-24 23:06:12 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-04-24 23:06:12 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-04-24 23:06:12 [scrapy.middleware] INFO: Enabled item pipelines:
+['logo.pipelines.VectorStockPipeline']
+2024-04-24 23:06:12 [scrapy.core.engine] INFO: Spider opened
+2024-04-24 23:06:12 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-04-24 23:06:12 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-04-24 23:06:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/gallery/list/?gallery=featured&filter=> (referer: None)
+2024-04-24 23:06:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=2> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=)
+2024-04-24 23:06:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/nagual/showcase/detail/313669> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=)
+2024-04-24 23:06:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://logopond.com/nagual/showcase/detail/313669>
+{'as_seen_on': ['LogoGround', 'https://www.logoground.com/logo.php?id=914896'],
+ 'description': 'Concept available for sale',
+ 'designer': ['nagual', 'https://logopond.com/nagual/profile/49097'],
+ 'image_urls': ['https://logopond.com/logos/28d9a418f545a1ba5c6a2824964adbd8.png'],
+ 'status': 'For sale',
+ 'tags': ['funny', 'cartoon', 'animal', 'jaws'],
+ 'title': 'Stranger Cat Logo',
+ 'viewed': '664'}
+2024-04-24 23:06:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/jowelahmed/showcase/detail/313632> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=)
+2024-04-24 23:06:15 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Dribbble.com/jowelahmed_s',
+                'https://Dribbble.com/jowelahmed_s'],
+ 'description': 'Security agency logo concept ( available )  Interested in '
+                "working with me?  Let's talk to work together..  Email : "
+                'jowelahmednirob@gmail.com  WhatsApp : +8801836631000',
+ 'designer': ['jowelahmed', 'https://logopond.com/jowelahmed/profile/471272'],
+ 'image_urls': ['https://logopond.com/logos/a323426da46baea1b17e2385475ab9b7.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['', 'chatting', 'medical', 'medicine'],
+ 'title': 'rating agency logo',
+ 'viewed': '711'}
+2024-04-24 23:06:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/leeyartdotcom/showcase/detail/313606> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=)
+2024-04-24 23:06:15 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['LogoGround', 'https://www.logoground.com/logo.php?id788347'],
+ 'description': 'The Hemp Kingdom logo combines a stylized tiger head and a '
+                'cannabis leaf. The logo is available for purchase in my logo '
+                'store.',
+ 'designer': ['leeyartdotcom',
+              'https://logopond.com/leeyartdotcom/profile/294517'],
+ 'image_urls': ['https://logopond.com/logos/481f578a93b8992885197705b4ed89fc.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['medicine', 'oil', 'CBD', 'marijuana'],
+ 'title': 'Hemp Kingdom',
+ 'viewed': '756'}
+2024-04-24 23:06:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Proffalices/showcase/detail/313982> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=)
+2024-04-24 23:06:16 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Buy Here', 'https://www.logoground.com/logo.php?id=939933'],
+ 'description': 'A kangaroo holding a ticket in his hand and with a package '
+                'like supplies hooked to wood, and also bordered by a '
+                'semi-circle whose ends are like a plane and its track, makes '
+                'the logo synonymous with going on holiday with the kangaroo '
+                'as a distinctive mascot.',
+ 'designer': ['Proffalices', 'https://logopond.com/Proffalices/profile/631232'],
+ 'image_urls': ['https://logopond.com/logos/6667e890824177271396a1fe99d12234.png'],
+ 'status': 'For sale',
+ 'tags': ['journey', 'holiday', 'travel', 'vacation'],
+ 'title': 'Kangaroo Vacation Ticket Logo',
+ 'viewed': '175'}
+2024-04-24 23:06:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Proffalices/showcase/detail/313977> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=)
+2024-04-24 23:06:17 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Buy Here', 'https://www.logoground.com/logo.php?id=939594'],
+ 'description': 'A smiling bomb holding two matches as if one of them is about '
+                'to be eaten makes the logo represent courage, adrenaline and '
+                'also a challenge, with a cartoon character but still with a '
+                'bold expression making the logo feel fun but still brave.',
+ 'designer': ['Proffalices', 'https://logopond.com/Proffalices/profile/631232'],
+ 'image_urls': ['https://logopond.com/logos/57114e2a36d9764473ce7975d5390e63.png'],
+ 'status': 'For sale',
+ 'tags': ['cartoon', 'game', 'power', 'dynamite'],
+ 'title': 'Match Bomb Mascot Logo',
+ 'viewed': '159'}
+2024-04-24 23:06:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/artology/showcase/detail/313963> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=)
+2024-04-24 23:06:17 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Dribbble', 'https://dribbble.com/shots/23922593-EchoCloud'],
+ 'description': 'Unused  Need help with logo and brand identity design? Say '
+                'Hello: 📧 Email: raseltangail0@gmail.com',
+ 'designer': ['artology', 'https://logopond.com/artology/profile/471966'],
+ 'image_urls': ['https://logopond.com/logos/ef10f4bc4c32aa3cf6b319d0a6fed9e7.png',
+                'https://logopond.com/logos/b7ec4be7b6bb10c2a536b6a15cd80b36.png'],
+ 'status': 'For sale',
+ 'tags': ['logos', 'logo designer', 'logo maker', 'logodesign'],
+ 'title': 'EchoCLoud',
+ 'viewed': '281'}
+2024-04-24 23:06:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Yukari/showcase/detail/313957> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=)
+2024-04-24 23:06:18 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Yukari Designer', '//logopond.com/yukari'],
+ 'description': 'See my work in @yukari.designer',
+ 'designer': ['Yukari', 'https://logopond.com/Yukari/profile/540700'],
+ 'image_urls': ['https://logopond.com/logos/ff0205a89b8d5d4a436ab08ffdebebd2.png'],
+ 'status': 'Client work',
+ 'tags': ['Visual Identity | Design | Logo | Logo Vector | Vector | Graphic '
+          'Design | Ilustration | Vector Ilustration'],
+ 'title': 'Do Zero ao 1000',
+ 'viewed': '205'}
+2024-04-24 23:06:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Proffalices/showcase/detail/313950> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=)
+2024-04-24 23:06:19 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Buy Here', 'https://www.logoground.com/logo.php?id=938177'],
+ 'description': 'An elephant with a hat reflects him like an employee, and '
+                'with the pizza he carries makes the logo reflect a large '
+                'pizza with a representation of an elephant with the '
+                'friendliness of a good employee.',
+ 'designer': ['Proffalices', 'https://logopond.com/Proffalices/profile/631232'],
+ 'image_urls': ['https://logopond.com/logos/2bd49a97212aef1d1d212c9a4fa0e923.png'],
+ 'status': 'For sale',
+ 'tags': ['character', 'fastfood', 'cartoon', 'restaurant'],
+ 'title': 'Elephant Pizza Mascot Logo',
+ 'viewed': '163'}
+2024-04-24 23:06:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/plogged/showcase/detail/313707> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=2)
+2024-04-24 23:06:19 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Behance',
+                'https://www.behance.net/gallery/95949225/Qeen-Brand-Identity-Design'],
+ 'description': 'Qeen is an HR brand that develop and integrate technologies '
+                'into people and business processes of clients to optimize '
+                'effectiveness both at individual, team and organizational '
+                'level. . Qeen is was gotten from the word Keen but with a Q.',
+ 'designer': ['plogged', 'https://logopond.com/plogged/profile/234731'],
+ 'image_urls': ['https://logopond.com/logos/229a35a8c8bbae13d482b0ad1979a3b8.png',
+                'https://logopond.com/logos/79a714baf6e6d210cecafdce8eb12f48.png',
+                'https://logopond.com/logos/75b8a64df794bc059473840a0ff431de.png'],
+ 'status': 'Client work',
+ 'tags': ['technology', 'people', 'plogged', 'q monogram'],
+ 'title': 'Qeen',
+ 'viewed': '1427'}
+2024-04-24 23:06:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/cajva/showcase/detail/313735> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=2)
+2024-04-24 23:06:20 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['https://www.cosminmirza.net/', 'https://www.cajva.com/'],
+ 'description': 'Video Games Sound designer wants to make himself more '
+                'accessible. With over a decade and a half of experience in '
+                'the field of sound design and music composing, Cosmin is '
+                'offering his services to the world of video games. His vision '
+                'for the near future is to reach out to more people in need of '
+                'his expertise and teach others. Having lots to offer I '
+                'created a visual identity and a website where he can present '
+                'his services, sell his courses and build his audience.',
+ 'designer': ['cajva', 'https://logopond.com/cajva/profile/164780'],
+ 'image_urls': ['https://logopond.com/logos/f57215fbe1c2c1ae7b71513589121360.png',
+                'https://logopond.com/logos/b31ddeec1262461b10d45d0ff82aea65.png',
+                'https://logopond.com/logos/4d3e7364732d9a944065986787f02f27.png'],
+ 'status': 'Client work',
+ 'tags': ['audio', 'artist', 'video game music', 'video game sound designer'],
+ 'title': 'Cosmin Mirza Visual Identity',
+ 'viewed': '758'}
+2024-04-24 23:06:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/vileex/showcase/detail/313725> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=2)
+2024-04-24 23:06:21 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'description': 'email: vileex@gmail.com  Find me here: '
+                'https://www.instagram.com/vileexdesign/ '
+                'https://www.linkedin.com/in/harisrizwanlodhi/',
+ 'designer': ['vileex', 'https://logopond.com/vileex/profile/115806'],
+ 'image_urls': ['https://logopond.com/logos/1c0ae7e40f7716d3981381b6562ba484.png'],
+ 'status': 'For sale',
+ 'tags': ['King of the Jungle.', 'Roar', 'Wild', 'Beauty'],
+ 'title': 'Tiger🐯Logo',
+ 'viewed': '685'}
+2024-04-24 23:06:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=3> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=2)
+2024-04-24 23:06:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/DeanMaschine/showcase/detail/313722> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=2)
+2024-04-24 23:06:21 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Dean Machine', 'https://www.instagram.com/dean_maschine/'],
+ 'description': 'A new automotive gathering for Porsche enthusiasts in Marin '
+                'County, CA.',
+ 'designer': ['DeanMaschine', 'https://logopond.com/DeanMaschine/profile/9208'],
+ 'image_urls': ['https://logopond.com/logos/269690a40a39e32272cb51f65a55d083.png'],
+ 'status': 'Client work',
+ 'tags': ['Strawberry Village', 'Bay Area', 'Mill Valley', 'Marin'],
+ 'title': 'Motor Social',
+ 'viewed': '780'}
+2024-04-24 23:06:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/mikylangela/showcase/detail/313720> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=2)
+2024-04-24 23:06:22 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'description': 'broadcasting',
+ 'designer': ['mikylangela', 'https://logopond.com/mikylangela/profile/514198'],
+ 'image_urls': ['https://logopond.com/logos/e97d427079803cab35879832a51608ce.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['patron', 'god', 'logo', 'hermes'],
+ 'title': 'Hermes',
+ 'viewed': '778'}
+2024-04-24 23:06:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/mikylangela/showcase/detail/313719> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=2)
+2024-04-24 23:06:23 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'description': 'barbershop',
+ 'designer': ['mikylangela', 'https://logopond.com/mikylangela/profile/514198'],
+ 'image_urls': ['https://logopond.com/logos/084df26a2e7f7d4a32a10a415f55b453.png'],
+ 'status': 'Just for fun',
+ 'tags': ['logo', 'beard', 'crown'],
+ 'title': 'Royal Beard',
+ 'viewed': '964'}
+2024-04-24 23:06:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/cajva/showcase/detail/313752> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=2)
+2024-04-24 23:06:24 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['https://www.cajva.com/post/writing-thinking-and-connecting',
+                'https://www.cajva.com/post/writing-thinking-and-connecting'],
+ 'description': 'Another variation for the blog entry illustration I did last '
+                'week.  '
+                '_____________________________________________________________  '
+                'Lets create something amazing for your project!  '
+                'contact@cajva.com',
+ 'designer': ['cajva', 'https://logopond.com/cajva/profile/164780'],
+ 'image_urls': ['https://logopond.com/logos/d5e617f967b39ba5fea132a0de957408.png',
+                'https://logopond.com/logos/39784ac78e8026678c72af9372198bf3.png'],
+ 'status': 'Client work',
+ 'tags': ['cajva', 'lettering', 'playful', 'cheerful'],
+ 'title': 'Word Up',
+ 'viewed': '858'}
+2024-04-24 23:06:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/logoman/showcase/detail/313742> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=2)
+2024-04-24 23:06:24 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['https://brandforma.com/work/abstract-f-logo-for-sale',
+                'https://brandforma.com/work/abstract-f-logo-for-sale'],
+ 'description': 'Abstract F Logo Concept is available for purchase. '
+                'https://brandforma.com/work/abstract-f-logo-for-sale . To buy '
+                'this logo, send a request to — hello@brandforma.com . '
+                'Exclusive rights — this logo can be purchased only once. .',
+ 'designer': ['logoman', 'https://logopond.com/logoman/profile/10380'],
+ 'image_urls': ['https://logopond.com/logos/a9ded91b8b483beaaae466fdede70cd5.png'],
+ 'status': 'For sale',
+ 'tags': ['gradient', 'groths', 'layers', 'fold'],
+ 'title': 'Abstract F Logo For Sale',
+ 'viewed': '1,006'}
+2024-04-24 23:06:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/logoman/showcase/detail/313743> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=2)
+2024-04-24 23:06:25 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['https://brandforma.com/work/flow-f-logo-for-sale-2',
+                'https://brandforma.com/work/flow-f-logo-for-sale-2'],
+ 'description': 'Flow F Logo Concept is available for purchase. '
+                'https://brandforma.com/work/flow-f-logo-for-sale-2 . To buy '
+                'this logo, send a request to — hello@brandforma.com . '
+                'Exclusive rights — this logo can be purchased only once. .',
+ 'designer': ['logoman', 'https://logopond.com/logoman/profile/10380'],
+ 'image_urls': ['https://logopond.com/logos/118e4f36a51728d87b9a49352f10103f.png'],
+ 'status': 'For sale',
+ 'tags': ['abstract', 'vibrant', 'rainbow', 'colorful'],
+ 'title': 'Flow F Logo For Sale',
+ 'viewed': '734'}
+2024-04-24 23:06:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/plogged/showcase/detail/313741> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=2)
+2024-04-24 23:06:26 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Behance',
+                'https://www.behance.net/gallery/193414805/Woklyn-Brand-Identity'],
+ 'description': 'Woklyn is a pickup and delivery laundry service provider. '
+                'Improving the experience of the customer and internal '
+                "processes that support the customer's experience was the "
+                'goal.  Concept: W + Iron + Speed',
+ 'designer': ['plogged', 'https://logopond.com/plogged/profile/234731'],
+ 'image_urls': ['https://logopond.com/logos/4fd3ae7c97415a05ea229b0c49c7350f.png',
+                'https://logopond.com/logos/4fd3ae7c97415a05ea229b0c49c7350f.png',
+                'https://logopond.com/logos/4555e79381841cad304857e8a9e17b98.png'],
+ 'status': 'Client work',
+ 'tags': ['purple', 'plogged', 'w logo', 'w monogram'],
+ 'title': 'Woklyn',
+ 'viewed': '759'}
+2024-04-24 23:06:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=4> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=3)
+2024-04-24 23:06:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Miranchukova/showcase/detail/313400> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=3)
+2024-04-24 23:06:27 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'description': 'Food delivery',
+ 'designer': ['Miranchukova',
+              'https://logopond.com/Miranchukova/profile/241062'],
+ 'image_urls': ['https://logopond.com/logos/45e6751e859bbf57fec9fed0da95eba9.png'],
+ 'status': 'Client work',
+ 'tags': ['scoop', 'face', 'delivery', 'Food'],
+ 'title': 'Foody',
+ 'viewed': '1,308'}
+2024-04-24 23:06:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Cope/showcase/detail/313449> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=3)
+2024-04-24 23:06:28 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Behance',
+                'https://www.behance.net/gallery/191044555/Grow-with-it'],
+ 'description': 'A mascot-type logo representing a healthy workout.',
+ 'designer': ['Cope', 'https://logopond.com/Cope/profile/442432'],
+ 'image_urls': ['https://logopond.com/logos/6854b526f69d64ee3c729cd93a393a50.png'],
+ 'status': 'For sale',
+ 'tags': ['cartoon', 'gym', 'fitness', 'health'],
+ 'title': 'Grow with it',
+ 'viewed': '804'}
+2024-04-24 23:06:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/artology/showcase/detail/313739> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=2)
+2024-04-24 23:06:28 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Dribbble', 'https://dribbble.com/shots/23816843-Starship'],
+ 'description': 'Unused Logo Design  Need help with logo and brand identity '
+                'design? Say Hello: 📧 Email: raseltangail0@gmail.com',
+ 'designer': ['artology', 'https://logopond.com/artology/profile/471966'],
+ 'image_urls': ['https://logopond.com/logos/f918e984426ee0fd46d939b628eb0cc0.png',
+                'https://logopond.com/logos/5982f30759bc74c89710968d6145c059.png',
+                'https://logopond.com/logos/36bbcf247ed38bfaf44f80fee14924bd.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['starship', 'heart', 'start with rocket', 'rocket'],
+ 'title': 'Starship, Rocket, Heart _ Unused (For sale)',
+ 'viewed': '714'}
+2024-04-24 23:06:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/nagual/showcase/detail/313448> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=3)
+2024-04-24 23:06:29 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Logo Ground', 'https://www.logoground.com/logo.php?id=909210'],
+ 'description': 'Concept Available for sale!',
+ 'designer': ['nagual', 'https://logopond.com/nagual/profile/49097'],
+ 'image_urls': ['https://logopond.com/logos/dd75afaa124a5545b1f93c53df7a772e.png'],
+ 'status': 'For sale',
+ 'tags': ['', 'toad', 'mascot', 'gentlemen'],
+ 'title': 'Gentlemen Frog Logo',
+ 'viewed': '725'}
+2024-04-24 23:06:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Logomika/showcase/detail/313451> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=3)
+2024-04-24 23:06:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/nagual/showcase/detail/313447> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=3)
+2024-04-24 23:06:30 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'description': 'bistro  _______________________  Need a unique smart logo?  '
+                'write to me at out via Dribbble DM or E-mail:  👉 '
+                'danaya.design@gmail.com',
+ 'designer': ['Logomika', 'https://logopond.com/Logomika/profile/183436'],
+ 'image_urls': ['https://logopond.com/logos/7a8e0510f326d2a07658e9892d511547.png'],
+ 'status': 'Work in progress',
+ 'tags': ['baby', 'burger', 'food', 'kids'],
+ 'title': 'KID`S BURGER',
+ 'viewed': '795'}
+2024-04-24 23:06:30 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Logo Ground', 'https://www.logoground.com/logo.php?id=913192'],
+ 'description': 'Unused concept available for sale',
+ 'designer': ['nagual', 'https://logopond.com/nagual/profile/49097'],
+ 'image_urls': ['https://logopond.com/logos/ecfa0fb45c66d2b6c883c0ca62008ad7.png'],
+ 'status': 'For sale',
+ 'tags': ['animal', 'angry', 'mascot', 'monkey'],
+ 'title': 'Robot Ape Logo',
+ 'viewed': '872'}
+2024-04-24 23:06:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Luigi1818/showcase/detail/313466> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=3)
+2024-04-24 23:06:31 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['logoground', 'https://www.logoground.com/logo.php?id=920709'],
+ 'description': 'Cool and stylish bear basketball logo design idea. For more '
+                'logos for sale:  '
+                'https://www.logoground.com/designer.php?did=244342  '
+                'https://www.behance.net/dimitrinikolet  '
+                'https://branition.com/luigidesigns',
+ 'designer': ['Luigi1818', 'https://logopond.com/Luigi1818/profile/530837'],
+ 'image_urls': ['https://logopond.com/logos/818f6395ebf79af47674298a43ee5384.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['https://www.logoground.com/designer.php?did=244342',
+          'https://www.behance.net/dimitrinikolet',
+          'https://branition.com/luigidesigns',
+          'hooper',
+          'basketball',
+          'grizzly',
+          'bear'],
+ 'title': 'Bear basketball logo',
+ 'viewed': '803'}
+2024-04-24 23:06:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/leeyartdotcom/showcase/detail/313450> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=3)
+2024-04-24 23:06:31 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Dribble',
+                'https://dribbble.com/shots/23603750-Bull-King-Time-Lapse-Sketching-Final-Version'],
+ 'description': 'Bull King Logo.  For project inquiries reach out to me at '
+                'email hello@leeyart.com  Thank you.',
+ 'designer': ['leeyartdotcom',
+              'https://logopond.com/leeyartdotcom/profile/294517'],
+ 'image_urls': ['https://logopond.com/logos/36b933c6b3e2b7313ab3d73349d08e65.png'],
+ 'status': 'For sale',
+ 'tags': ['mascot', 'negative space', 'app', 'software'],
+ 'title': 'Bull King',
+ 'viewed': '1,149'}
+2024-04-24 23:06:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=5> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=4)
+2024-04-24 23:06:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/mikylangela/showcase/detail/313258> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=4)
+2024-04-24 23:06:32 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'description': 'A lettermark',
+ 'designer': ['mikylangela', 'https://logopond.com/mikylangela/profile/514198'],
+ 'image_urls': ['https://logopond.com/logos/c0bce61671a612927c9a8e1f819aec0b.png'],
+ 'status': 'Just for fun',
+ 'tags': ['A', 'lettermark', 'Fox'],
+ 'title': 'Fox',
+ 'viewed': '511'}
+2024-04-24 23:06:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Rakibul62/showcase/detail/313239> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=4)
+2024-04-24 23:06:33 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Website', 'https://brandingbyrakibul.com'],
+ 'description': 'If you need to purchase this one, then youve to contact me or '
+                'are you looking this type logo and branding or any logo or '
+                'any graphic design or any website work? Id be happy to hear '
+                'your story! Feel free to reach out',
+ 'designer': ['Rakibul62', 'https://logopond.com/Rakibul62/profile/425772'],
+ 'image_urls': ['https://logopond.com/logos/0140c1504e5a35ef358b0416afc177c7.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['logo design', 'naturelogo', 'eco-friendly', 'plantlogo'],
+ 'title': 'Ecolosis Logo',
+ 'viewed': '906'}
+2024-04-24 23:06:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/nagual/showcase/detail/313221> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=4)
+2024-04-24 23:06:34 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['LogoGround', 'https://www.logoground.com/logo.php?id=909727'],
+ 'description': 'Unused concept available for sale',
+ 'designer': ['nagual', 'https://logopond.com/nagual/profile/49097'],
+ 'image_urls': ['https://logopond.com/logos/e32c00ea624ebee059ca70355b7a5008.png',
+                'https://logopond.com/logos/254fa164a7b17dfe2196b38d0af5f5f0.png'],
+ 'status': 'For sale',
+ 'tags': ['', 'animal', 'monogram', 'head'],
+ 'title': 'Seagull Logo',
+ 'viewed': '930'}
+2024-04-24 23:06:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Kreatank/showcase/detail/313202> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=4)
+2024-04-24 23:06:34 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Charging Bull', 'https://Charging Bull'],
+ 'description': 'Here is a second Charging Bull logo concept created for a '
+                'recent project. Its horns are literally charged up. Get it?',
+ 'designer': ['Kreatank', 'https://logopond.com/Kreatank/profile/117852'],
+ 'image_urls': ['https://logopond.com/logos/8c300ea928b4f65f39058e82cc200dab.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['', 'negative space', 'creative', 'strong'],
+ 'title': 'Charging Bull',
+ 'viewed': '742'}
+2024-04-24 23:06:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Kreatank/showcase/detail/313201> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=4)
+2024-04-24 23:06:35 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Charging Bull', 'https://Charging Bull'],
+ 'description': 'Here is a second Charging Bull logo concept. Its horns are '
+                'literally charged up. Get it?',
+ 'designer': ['Kreatank', 'https://logopond.com/Kreatank/profile/117852'],
+ 'image_urls': ['https://logopond.com/logos/282c8215207d60f0c6fe6add6d6adae3.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['', 'aggressive', 'sports', 'bull head'],
+ 'title': 'Charging Bull',
+ 'viewed': '685'}
+2024-04-24 23:06:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Sujay/showcase/detail/313287> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=4)
+2024-04-24 23:06:36 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Logoground',
+                'https://www.logoground.com/mylogos-edit.php?ajk=901923-229610_4265485'],
+ 'description': 'A creative character ninja frog, this item is suitable for '
+                'any game, or cartoon studio brand identity.',
+ 'designer': ['Sujay', 'https://logopond.com/Sujay/profile/445048'],
+ 'image_urls': ['https://logopond.com/logos/0c3f4ed87e9943b3cd85664a98bfe8c7.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['logos', 'logo', 'funny', 'warrior'],
+ 'title': 'Ninja Frog Logo',
+ 'viewed': '291'}
+2024-04-24 23:06:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Sujay/showcase/detail/313288> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=4)
+2024-04-24 23:06:36 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Logoground',
+                'https://www.logoground.com/mylogos-edit.php?ajk=902275-229610_4383542'],
+ 'description': "Bear with coffee, it's a good character for restaurants, "
+                'coffee shops, cafes, etc brand identity or signs.',
+ 'designer': ['Sujay', 'https://logopond.com/Sujay/profile/445048'],
+ 'image_urls': ['https://logopond.com/logos/56d0a0b343fb51b11fc5bd593d948545.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['logos', 'logo', 'character', 'funny'],
+ 'title': 'Bear Coffee Logo',
+ 'viewed': '553'}
+2024-04-24 23:06:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Sujay/showcase/detail/313286> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=4)
+2024-04-24 23:06:37 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Logoground', 'https://www.logoground.com/logo.php?id=905229'],
+ 'description': 'Rooster King is an authentic design. It would be useful to '
+                'any new business or product brand identity.',
+ 'designer': ['Sujay', 'https://logopond.com/Sujay/profile/445048'],
+ 'image_urls': ['https://logopond.com/logos/3d27d54decdb20606e579defb6786eb4.png'],
+ 'status': 'Student work',
+ 'tags': ['logos', 'logo', 'store', 'shop'],
+ 'title': 'Rooster King Logo',
+ 'viewed': '469'}
+2024-04-24 23:06:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=6> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=5)
+2024-04-24 23:06:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/costoboc/showcase/detail/313085> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=5)
+2024-04-24 23:06:38 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'description': 'For sale',
+ 'designer': ['costoboc', 'https://logopond.com/costoboc/profile/341827'],
+ 'image_urls': ['https://logopond.com/logos/e10a2c1e874f1fd4c51147490f75b263.png'],
+ 'status': 'For sale',
+ 'tags': ['logo', 'Ichthys', 'fish', 'r'],
+ 'title': 'R Fish',
+ 'viewed': '1,007'}
+2024-04-24 23:06:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Luigi1818/showcase/detail/313067> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=5)
+2024-04-24 23:06:39 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['logoground', 'https://www.logoground.com/logo.php?id=900462'],
+ 'description': 'Unique and cool mutant logo design available for sale. For '
+                'more logos for sale: '
+                'https://www.logoground.com/designer.php?did=244342 '
+                'https://www.behance.net/dimitrinikolet '
+                'https://branition.com/luigidesigns',
+ 'designer': ['Luigi1818', 'https://logopond.com/Luigi1818/profile/530837'],
+ 'image_urls': ['https://logopond.com/logos/e752eb28430aaf467515bfc653a7f8c4.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['https://www.logoground.com/designer.php?did=244342',
+          'https://www.behance.net/dimitrinikolet',
+          'https://branition.com/luigidesigns',
+          'brave',
+          'hero',
+          'superpowers',
+          'male'],
+ 'title': 'Mutant logo',
+ 'viewed': '906'}
+2024-04-24 23:06:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Luigi1818/showcase/detail/313102> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=5)
+2024-04-24 23:06:40 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['logoground', 'https://www.logoground.com/logo.php?id=871329'],
+ 'description': 'Modern and clean bird holding his key logo design available '
+                'for sale. For more logos for sale: '
+                'https://www.logoground.com/designer.php?did=244342 '
+                'https://www.behance.net/dimitrinikolet '
+                'https://branition.com/luigidesigns',
+ 'designer': ['Luigi1818', 'https://logopond.com/Luigi1818/profile/530837'],
+ 'image_urls': ['https://logopond.com/logos/dc16ff8a02dc7b31fe3fec89c0ad1346.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['https://www.logoground.com/designer.php?did=244342',
+          'https://www.behance.net/dimitrinikolet',
+          'https://branition.com/luigidesigns',
+          'wings',
+          'gentleman',
+          'hat',
+          'key'],
+ 'title': 'Bird key logo',
+ 'viewed': '593'}
+2024-04-24 23:06:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/rimongraphics/showcase/detail/313058> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=5)
+2024-04-24 23:06:40 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['https://www.behance.net/gallery/187638479/AppointMaster-App-UIUX-Case-Study-Branding',
+                'https://Behance'],
+ 'description': 'Project Inquiry - inboxclient.rh@gmail.com',
+ 'designer': ['rimongraphics',
+              'https://logopond.com/rimongraphics/profile/508992'],
+ 'image_urls': ['https://logopond.com/logos/bdc2a15d64eb794948a0152921815313.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['Case Study Insights;',
+          'UIUX Design Principles',
+          'Branding Success Stories',
+          'Mobile App User Experience Design'],
+ 'title': 'AppointMaster Logo Design',
+ 'viewed': '886'}
+2024-04-24 23:06:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/logoman/showcase/detail/313098> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=5)
+2024-04-24 23:06:41 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['brandforma.com', 'https://brandforma.com/work/flowmondo'],
+ 'description': 'Logo design for Flowmondo. Ecommerce automation experts.  🔗 '
+                "https://brandforma.com/work/flowmondo  Let's work together! "
+                '✦  hello@brandforma.com',
+ 'designer': ['logoman', 'https://logopond.com/logoman/profile/10380'],
+ 'image_urls': ['https://logopond.com/logos/5dea96e1dbfa3e7d1b5a0b120be0a5c8.png',
+                'https://logopond.com/logos/f5e04e2f6be3524ea12f80938b326539.png',
+                'https://logopond.com/logos/629b2f0a9074e33c9f14382b94af3f3b.png'],
+ 'status': 'Client work',
+ 'tags': ['overlap', 'overlay', 'colors', 'ecommerce'],
+ 'title': 'Flowmondo',
+ 'viewed': '1,425'}
+2024-04-24 23:06:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/carolinacrespo/showcase/detail/313074> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=5)
+2024-04-24 23:06:41 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Logoground', 'mailto:carolinacrespo.ai@gmail.com'],
+ 'description': 'A cool mascot of a churro for your snack restaurant, in a '
+                'circular badge with retro style   Available for sale at '
+                'Logoground: https://www.logoground.com/logo.php?id=905240   '
+                'If you have any other request, please contact me at: '
+                'carolinacrespo.ai@gmail.com',
+ 'designer': ['carolinacrespo',
+              'https://logopond.com/carolinacrespo/profile/579375'],
+ 'image_urls': ['https://logopond.com/logos/76c354c0b50854256cd3c635e6de455a.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['https://www.logoground.com/logo.php?id=905240',
+          'graphic design',
+          'churro',
+          'logo',
+          'happy'],
+ 'title': 'Churro Mascot',
+ 'viewed': '564'}
+2024-04-24 23:06:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/helloagnese/showcase/detail/313054> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=5)
+2024-04-24 23:06:42 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'description': 'The logo symbol is available for sale.',
+ 'designer': ['helloagnese', 'https://logopond.com/helloagnese/profile/110081'],
+ 'image_urls': ['https://logopond.com/logos/65d9c197d0b228c6b817e285626e282b.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['speech', 'conversation', 'chat', 'dialogue'],
+ 'title': 'Speech Bubble',
+ 'viewed': '858'}
+2024-04-24 23:06:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=7> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=6)
+2024-04-24 23:06:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/nagual/showcase/detail/312883> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=6)
+2024-04-24 23:06:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/mspartan/showcase/detail/312913> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=6)
+2024-04-24 23:06:45 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['LogoGround', 'https://www.logoground.com/logo.php?id=882091'],
+ 'description': 'Concept Available for sale',
+ 'designer': ['nagual', 'https://logopond.com/nagual/profile/49097'],
+ 'image_urls': ['https://logopond.com/logos/cad2d8c7eeefd9efd72ab30b5ad5dbc4.png'],
+ 'status': 'For sale',
+ 'tags': ['', 'mascot', 'head', 'animal'],
+ 'title': 'Cool Bear Logo',
+ 'viewed': '1,212'}
+2024-04-24 23:06:45 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'description': 'King Card Logo. Unused and available design, looking for a '
+                'new owner. the design fits in perfect square proportions so '
+                'it will be easy to use as an icon, avatar, or on merchandise. '
+                'project inquiry:\xa0voicemahadi@gmail.com  Whatsapp '
+                '8801884522138',
+ 'designer': ['mspartan', 'https://logopond.com/mspartan/profile/311396'],
+ 'image_urls': ['https://logopond.com/logos/3c93f6cadc5224a8cb2a0e2a68c49315.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['spades', 'spade', 'rhomb', 'red'],
+ 'title': 'King Card Logo',
+ 'viewed': '849'}
+2024-04-24 23:06:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Kreatank/showcase/detail/312862> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=6)
+2024-04-24 23:06:45 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Tegro', 'https://Tegro'],
+ 'description': 'Logo created for Tegro.com , a crypto game platform where '
+                'players can trade game assets.  The initial concept was based '
+                'on a Siberian or Bengal tiger, but the one-color version '
+                'proved to be more powerful, so it became a White tiger.',
+ 'designer': ['Kreatank', 'https://logopond.com/Kreatank/profile/117852'],
+ 'image_urls': ['https://logopond.com/logos/7ce5416a0643e64fc5f50f57e94993cc.png',
+                'https://logopond.com/logos/acdde72eb9556b86072bad13f2010c91.png'],
+ 'status': 'Client work',
+ 'tags': ['', 'kreatank', 'creative', 'clean'],
+ 'title': 'Tegro',
+ 'viewed': '933'}
+2024-04-24 23:06:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/artology/showcase/detail/312827> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=6)
+2024-04-24 23:06:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/NRLMSTF/showcase/detail/312906> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=6)
+2024-04-24 23:06:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/artology/showcase/detail/313132> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=5)
+2024-04-24 23:06:46 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Dribbble', 'https://dribbble.com/shots/22992277-Looping'],
+ 'description': "Unused mark &amp; available for sale:  Let's work together on "
+                'your project! Send an email to → raseltangail0@gmail.com',
+ 'designer': ['artology', 'https://logopond.com/artology/profile/471966'],
+ 'image_urls': ['https://logopond.com/logos/31835c2ad160ec6b94ac5dd886ed27f3.png',
+                'https://logopond.com/logos/7c957668b2455c7865840b13f76c51ba.png',
+                'https://logopond.com/logos/a2b4e12a74d96bf9becf36b08b4459a2.png'],
+ 'status': 'For sale',
+ 'tags': ['', 'corporate logo. logo maker', 'minimalist logo', 'Flat logo'],
+ 'title': 'Looping',
+ 'viewed': '1,021'}
+2024-04-24 23:06:46 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Logoground', 'https://www.logoground.com/logo.php?id=565434'],
+ 'description': 'SOLD',
+ 'designer': ['NRLMSTF', 'https://logopond.com/NRLMSTF/profile/401252'],
+ 'image_urls': ['https://logopond.com/logos/00e37ea4483818cbdf372e0fdd2be914.png'],
+ 'status': 'Client work',
+ 'tags': ['', 'restaurant', 'food', 'syrup'],
+ 'title': 'Letter C Cherry Logo',
+ 'viewed': '1032'}
+2024-04-24 23:06:46 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Dribbble', 'https://dribbble.com/shots/23387126-Quill-Shield'],
+ 'description': '✨ Elevate your brand with a stunning logo! ✨  💼 Unused &amp; '
+                'Available for purchase: This exclusive design is ready to '
+                'enhance your brand identity.  📧 Email: '
+                'raseltangail0@gmail.com  📱 Connect on: WhatsApp &amp; '
+                "Telegram/ +8801869373338  Let's bring your vision to life. DM "
+                'or email to get started! 🚀',
+ 'designer': ['artology', 'https://logopond.com/artology/profile/471966'],
+ 'image_urls': ['https://logopond.com/logos/21fc3ee05064d90111a44bf05cc6df3e.png'],
+ 'status': 'For sale',
+ 'tags': ['Logo designer', 'Document', 'Quill Paper', 'trendy logo'],
+ 'title': 'Quill, Shield',
+ 'viewed': '711'}
+2024-04-24 23:06:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Dalius/showcase/detail/312630> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=6)
+2024-04-24 23:06:47 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['www.stuoka.com', 'https://www.stuoka.com'],
+ 'description': 'A genetics-related logo design concept, featuring a DNA strip '
+                "formed out of a couple letter X's, from my archives.",
+ 'designer': ['Dalius', 'https://logopond.com/Dalius/profile/325842'],
+ 'image_urls': ['https://logopond.com/logos/3509de7fbd2709a1e80497b3c2991437.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['logomark', 'biology', 'therapy', 'gene'],
+ 'title': 'xgene Logo Design',
+ 'viewed': '1,207'}
+2024-04-24 23:06:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/leeyartdotcom/showcase/detail/312627> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=6)
+2024-04-24 23:06:47 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Dribble', 'https://dribbble.com/shots/21691788-Deer-Emblem'],
+ 'description': 'Deer Hunting Logo Badge. For project inquiries reach out to '
+                'me at zexmania@gmx.com',
+ 'designer': ['leeyartdotcom',
+              'https://logopond.com/leeyartdotcom/profile/294517'],
+ 'image_urls': ['https://logopond.com/logos/1953675c80cb2a67ffcc52a8a2e48535.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['custom logo', 'deer logo', 'elk', 'stag'],
+ 'title': 'Deer Hunting Badge',
+ 'viewed': '994'}
+2024-04-24 23:06:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=8> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=7)
+2024-04-24 23:06:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/MMOOHH/showcase/detail/312698> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=7)
+2024-04-24 23:06:49 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2024-04-24 23:06:49 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2024-04-24 23:06:49 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['logoground', 'https://www.logoground.com/logo.php?id=800999'],
+ 'description': 'star bottle logo, simple logo features star with bottle '
+                'symbol',
+ 'designer': ['MMOOHH', 'https://logopond.com/MMOOHH/profile/338775'],
+ 'image_urls': ['https://logopond.com/logos/3e668e4136c1ba18717d2ae45ed34a2f.png'],
+ 'status': 'For sale',
+ 'tags': ['recycle', 'plastic', 'nature', 'life'],
+ 'title': 'Star Bottle Logo',
+ 'viewed': '917'}
+2024-04-24 23:06:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/Kreatank/showcase/detail/312728> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=7)
+2024-04-24 23:06:50 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['Pinetech', 'https://Pinetech'],
+ 'description': 'When nature meets technology in a simple logo.  This cute '
+                'Pine tree mark was a concept for a crypto-based project, I '
+                'changed the business name for confidential purposes.',
+ 'designer': ['Kreatank', 'https://logopond.com/Kreatank/profile/117852'],
+ 'image_urls': ['https://logopond.com/logos/24147f7127f3b52784d9304da6ff87b1.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['', 'kreatank', 'forest', 'nature'],
+ 'title': 'Pinetech',
+ 'viewed': '1,453'}
+2024-04-24 23:06:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/contrast8/showcase/detail/312709> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=7)
+2024-04-24 23:06:50 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'description': 'Unused proposal. The symbol represents black hole and time '
+                'manipulation.  ✉️ Lets work together - Info@contrast8.com 💬 '
+                'skype - contrast8 💬 telegram - contrast8  © Deividas Bielskis',
+ 'designer': ['contrast8', 'https://logopond.com/contrast8/profile/24837'],
+ 'image_urls': ['https://logopond.com/logos/e616d296a2cb4e4dd01209e712ae8b0e.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['crypto currency', 'software', 'technology', 'tech'],
+ 'title': 'analog',
+ 'viewed': '1,864'}
+2024-04-24 23:06:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/nagual/showcase/detail/312725> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=7)
+2024-04-24 23:06:51 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['LogoGround', 'https://www.logoground.com/logo.php?id=870187'],
+ 'description': 'Unused concept by client and available for sale',
+ 'designer': ['nagual', 'https://logopond.com/nagual/profile/49097'],
+ 'image_urls': ['https://logopond.com/logos/34c0b3725764388a2963bff157e73781.png'],
+ 'status': 'For sale',
+ 'tags': ['', 'god', 'man', 'human'],
+ 'title': 'Helios Logo',
+ 'viewed': '2,159'}
+2024-04-24 23:06:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/viewdesign/showcase/detail/312733> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=7)
+2024-04-24 23:06:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/nagual/showcase/detail/312723> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=7)
+2024-04-24 23:06:52 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'description': 'heraldic logo for finance project designer: Evgeny Bochinin / '
+                'дизайнер: Евгений Бочинин',
+ 'designer': ['viewdesign', 'https://logopond.com/viewdesign/profile/231718'],
+ 'image_urls': ['https://logopond.com/logos/258679b7b6025aea9b3016bd14afbde4.png'],
+ 'status': 'Client work',
+ 'tags': ['дизайнер', 'logo', 'crest', 'heraldic'],
+ 'title': 'vsm capital',
+ 'viewed': '984'}
+2024-04-24 23:06:52 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'as_seen_on': ['LogoGround', 'https://www.logoground.com/logo.php?id=874229'],
+ 'description': 'Concept unused by client and available for purchase',
+ 'designer': ['nagual', 'https://logopond.com/nagual/profile/49097'],
+ 'image_urls': ['https://logopond.com/logos/f68f3118042636d2ccbb4ac6006cef6d.png'],
+ 'status': 'For sale',
+ 'tags': ['ocean', 'mascot', 'fun', 'engine'],
+ 'title': 'Flying Turtle Logo',
+ 'viewed': '1,499'}
+2024-04-24 23:06:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/vileex/showcase/detail/312751> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=7)
+2024-04-24 23:06:53 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'description': '🍜 I am open to new projects  email: vileex@gmail.com  Find me '
+                'here: https://www.instagram.com/vileexdesign/ '
+                'https://www.linkedin.com/in/harisrizwanlodhi/',
+ 'designer': ['vileex', 'https://logopond.com/vileex/profile/115806'],
+ 'image_urls': ['https://logopond.com/logos/54eb623753012fed8cb8e82c0ec84944.png'],
+ 'status': 'For sale',
+ 'tags': ['logos', 'logo', 'Eyecatching', 'Ferocious'],
+ 'title': 'Wolf⚡🐺',
+ 'viewed': '1,538'}
+2024-04-24 23:06:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/costoboc/showcase/detail/312732> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=7)
+2024-04-24 23:06:53 [scrapy.core.scraper] WARNING: Dropped: This logo has already been collected: None
+{'description': 'Unused concept',
+ 'designer': ['costoboc', 'https://logopond.com/costoboc/profile/341827'],
+ 'image_urls': ['https://logopond.com/logos/cbf6dd763f42f2cbbdd90c7066121a12.png'],
+ 'status': 'Unused proposal',
+ 'tags': ['design', 'text', 'logo', 'jive'],
+ 'title': 'Jive logo',
+ 'viewed': '1,759'}
+2024-04-24 23:06:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=9> (referer: https://logopond.com/gallery/list/?gallery=featured&filter=&month=&year=&page=8)
+2024-04-24 23:06:54 [scrapy.extensions.feedexport] INFO: Stored jsonl feed (1 items) in: test_logopond.jsonl
+2024-04-24 23:06:54 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 25002,
+ 'downloader/request_count': 66,
+ 'downloader/request_method_count/GET': 66,
+ 'downloader/response_bytes': 546867,
+ 'downloader/response_count': 66,
+ 'downloader/response_status_count/200': 66,
+ 'elapsed_time_seconds': 41.451033,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2024, 4, 24, 16, 6, 54, 4661, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 2355320,
+ 'httpcompression/response_count': 66,
+ 'item_dropped_count': 56,
+ 'item_dropped_reasons_count/DropItem': 56,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 70,
+ 'log_count/INFO': 12,
+ 'log_count/WARNING': 56,
+ 'request_depth_max': 9,
+ 'response_received_count': 66,
+ 'scheduler/dequeued': 66,
+ 'scheduler/dequeued/memory': 66,
+ 'scheduler/enqueued': 370,
+ 'scheduler/enqueued/memory': 370,
+ 'start_time': datetime.datetime(2024, 4, 24, 16, 6, 12, 553628, tzinfo=datetime.timezone.utc)}
+2024-04-24 23:06:54 [scrapy.core.engine] INFO: Spider closed (shutdown)
+2024-04-24 23:06:54 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
