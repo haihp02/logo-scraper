@@ -5,10 +5,10 @@ import scrapy
 
 from scrapy_playwright.page import PageMethod
 from playwright.async_api import Page as PlaywrightPage
-from items import DribbbleItem
+from logo.items import DribbbleItem
 
 username: str = os.getenv("DIBBBLE_USERNAME")
-password: str = os.getenv("DIBBbLE_PASSWROD")
+password: str = os.getenv("DIBBBLE_PASSWROD")
 
 # For single evaluate
 # sign_in_script = f'''
@@ -58,7 +58,7 @@ class DribbbleSpiderSpider(scrapy.Spider):
     name = "dribbble_spider"
     allowed_domains = ["dribbble.com"]
 
-    def __init__(self, start_url_file_path, username, password):
+    def __init__(self, start_url_file_path):
         super().__init__()
         self.domain_url = "https://www.dribbble.com"
         self.sign_in_url = "https://dribbble.com/session/new"
@@ -73,8 +73,8 @@ class DribbbleSpiderSpider(scrapy.Spider):
                 'playwright': True,
                 'playwright_include_page': True,
                 'playwright_page_methods': [
-                    PageMethod('fill', 'input[name="username"]', self.username),
-                    PageMethod('fill', 'input[name="password"]', self.password),
+                    PageMethod('fill', 'input[name="username"]', username),
+                    PageMethod('fill', 'input[name="password"]', password),
                     PageMethod('click', 'button[type="submit"]'),
                     PageMethod('wait_for_navigation'),
                 ],
@@ -112,11 +112,14 @@ class DribbbleSpiderSpider(scrapy.Spider):
         # Close the page
         await page.close()
 
+        cookies = response.headers.getlist('Set-Cookie')
+        cookies_dict = {cookie.split('=')[0]: cookie.split('=')[1] for cookie in cookies}
+
         all_logos = response.css('div ol li[id]')
         for logo in all_logos:
             logo_url = logo.css('a.shot-thumbnail-link.dribbble-link.js-shot-link::attr(href)').get()
             logo_url = urljoin(self.domain_url, logo_url)
-            yield scrapy.Request(url=logo_url, callback=self.parse_logo_page)
+            yield scrapy.Request(url=logo_url, callback=self.parse_logo_page, cookies=cookies_dict)
         
 
     def parse_logo_page(self, response):
