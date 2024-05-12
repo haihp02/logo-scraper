@@ -47,7 +47,7 @@ class LogobookSpiderSpider(scrapy.Spider):
         for k, v in zip(all_info_keys, all_info_values):
             logo_item['infos'][k.strip()] = v.strip()
         
-        logo_item['image_url'] = response.css('section.single-logo figure.logo-svg img.logo::attr(src)').get()
+        logo_item['image_urls'] = [response.css('section.single-logo figure.logo-svg img.logo::attr(src)').get()]
         logo_item['tags'] = list(map(lambda x: x.strip(), response.css('div.single-tags a::text').getall()))
 
         yield logo_item

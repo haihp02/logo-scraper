@@ -11,8 +11,11 @@ from scrapy import Field
 #     description = Field()
 #     pass
 
-class BrandsoftheworldItem(scrapy.Item):
+class LogoItem(scrapy.Item):
     title = Field()
+    image_urls = Field()
+
+class BrandsoftheworldItem(LogoItem):
     description = Field()
     terms = Field()
     website = Field()
@@ -22,29 +25,26 @@ class BrandsoftheworldItem(scrapy.Item):
     status = Field()
     vector_quality = Field()
     updated_on = Field()
-    image_urls = Field()
 
-class LogoPondItem(scrapy.Item):
-    title = Field()
+class LogoPondItem(LogoItem):
     designer = Field()
     description = Field()
     as_seen_on = Field()
     status = Field()
     viewed = Field()
     tags = Field()
-    image_urls = Field()
 
-class VectorStockItem(scrapy.Item):
-    title = Field()
+class VectorStockItem(LogoItem):
     designer = Field()
     image_id = Field()
-    image_urls = Field()
     tags = Field()
     page = Field()
 
-class LogobookItem(scrapy.Item):
-    title = Field()
+class LogobookItem(LogoItem):
     country = Field()
     infos = Field()
     tags = Field()
-    image_url = Field()
+
+class DribbbleItem(LogoItem):
+    designer = Field()
+    image_id = Field()
