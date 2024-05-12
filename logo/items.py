@@ -48,3 +48,4 @@ class LogobookItem(LogoItem):
 class DribbbleItem(LogoItem):
     designer = Field()
     image_id = Field()
+    description = Field()

@@ -8,32 +8,32 @@ from playwright.async_api import Page as PlaywrightPage
 from logo.items import DribbbleItem
 
 username: str = os.getenv("DIBBBLE_USERNAME")
-password: str = os.getenv("DIBBBLE_PASSWROD")
+password: str = os.getenv("DIBBBLE_PASSWORD")
 
 # For single evaluate
-# sign_in_script = f'''
-# async () => {{
-#     const username = document.getElementById("login")
-#     const password = document.getElementById("password)
+sign_in_script = f'''
+async () => {{
+    const username = document.getElementById("login")
+    const password = document.getElementById("password")
 
-#     if (username && password) {{
-#         username.value = {username}
-#         password.value = {password}
-#     }}
+    if (username && password) {{
+        username.value = {username}
+        password.value = {password}
+    }}
 
-#     document.querySelector("input[type=submit]").click()
+    document.querySelector("input[type=submit]").click()
 
-#     // Wait until the URL changes to the expected URL after login
-#     await new Promise((resolve, reject) => {{
-#         const intervalId = setInterval(() => {{
-#             if (window.location.href.includes('https://dribbble.com/following')) {{
-#                 clearInterval(intervalId);
-#                 resolve();
-#             }}
-#         }}, 100); // Check every 100 milliseconds
-#     }});
-# }}
-# '''
+    // Wait until the URL changes to the expected URL after login
+    await new Promise((resolve, reject) => {{
+        const intervalId = setInterval(() => {{
+            if (window.location.href.includes('https://dribbble.com/following')) {{
+                clearInterval(intervalId);
+                resolve();
+            }}
+        }}, 100); // Check every 100 milliseconds
+    }});
+}}
+'''
 
 scroll_and_show_more_script = """
 async (page) => {
@@ -52,7 +52,6 @@ async (page) => {
     }
 }
 """
-
 
 class DribbbleSpiderSpider(scrapy.Spider):
     name = "dribbble_spider"
@@ -73,10 +72,10 @@ class DribbbleSpiderSpider(scrapy.Spider):
                 'playwright': True,
                 'playwright_include_page': True,
                 'playwright_page_methods': [
-                    PageMethod('fill', 'input[name="username"]', username),
+                    PageMethod('fill', 'input[name="login"]', username),
                     PageMethod('fill', 'input[name="password"]', password),
-                    PageMethod('click', 'button[type="submit"]'),
-                    PageMethod('wait_for_navigation'),
+                    PageMethod('click', 'input[type="submit"]')
+                    # PageMethod('evaluate', sign_in_script)
                 ],
             },
             callback=self.start_scraping,
@@ -95,37 +94,53 @@ class DribbbleSpiderSpider(scrapy.Spider):
         for url in self.start_urls:
             yield scrapy.Request(
                 url=url,
-                meta={
-                    'playwright': True,
-                    'playwright_include_page': True,
-                    'playwright_page_methods': [
-                        PageMethod('evaluate', scroll_and_show_more_script)
-                    ]
-                },
+                # meta={
+                #     'playwright': True,
+                #     'playwright_include_page': True,
+                #     'playwright_page_methods': [
+                #         PageMethod('evaluate', scroll_and_show_more_script)
+                #     ]
+                # },
                 cookies=cookies_dict,
                 callback=self.parse_artist_page,
                 errback=self._errback
             )
 
     async def parse_artist_page(self, response):
-        page: PlaywrightPage = response.meta["playwright_page"]
-        # Close the page
-        await page.close()
+        # page: PlaywrightPage = response.meta["playwright_page"]
+        # # Close the page
+        # await page.close()
 
         cookies = response.headers.getlist('Set-Cookie')
         cookies_dict = {cookie.split('=')[0]: cookie.split('=')[1] for cookie in cookies}
 
+        # Check if artist is pro or not
+        if response.css('div.profile-masthead section.profile-promasthead'):
+            pro_designer = True
+            designer_name = response.css('div.masthead-profile-name h1::text').get().strip()
+        elif response.css('div.profile-masthead section.profile-simple-masthead'):
+            pro_designer = False
+            designer_name = response.css('h1.masthead-profile-name::text').get().strip()
+
         all_logos = response.css('div ol li[id]')
         for logo in all_logos:
-            logo_url = logo.css('a.shot-thumbnail-link.dribbble-link.js-shot-link::attr(href)').get()
-            logo_url = urljoin(self.domain_url, logo_url)
-            yield scrapy.Request(url=logo_url, callback=self.parse_logo_page, cookies=cookies_dict)
+            logo_item = DribbbleItem()
+
+            logo_item['designer'] = [designer_name, response.url]
+            logo_item['title'] = logo.css('a span.accessibility-text::text').get()
+            logo_item['image_urls'] = [logo.css('img[src]::attr(src)').get().split('?')[0]]
+            logo_item['image_id'] = logo.attrib['data-thumbnail-id']
+            logo_item['description'] = logo.css('img[src]::attr(alt)').get().strip()
+            yield logo_item
+
+            # logo_url = urljoin(self.domain_url, logo_url)
+            # yield scrapy.Request(url=logo_url, callback=self.parse_logo_page, cookies=cookies_dict)
         
 
     def parse_logo_page(self, response):
         logo_item = DribbbleItem()
 
-        logo_item['item'] = response.css('div h1::text').get().strip()
+        logo_item['title'] = response.css('div h1::text').get().strip()
 
         image_container = response.css('section.shot-media-section div.js-media-container')
         logo_item['image_id'] = image_container.attrib['data-shot-id']
